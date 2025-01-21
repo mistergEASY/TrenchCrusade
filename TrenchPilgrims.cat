@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2e91-4449-8e0d-d7e7" name="Trench Pilgrims" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="d53c-f3d4-b6cf-06ee" name="Procession of the Sacred Affliction" hidden="false">
+      <rules>
+        <rule id="25cb-5596-8ad0-e49f" name="Face thy Fears" hidden="false">
+          <description>No model in the Procession of the Sacred Affliction can wear Iron Capirotes. Those troops with Capirotes in their base profile will not have them, though their cost remains the same.</description>
+        </rule>
+        <rule id="a2a0-aade-6c1d-1374" name="Reliquary Armoury" hidden="false">
+          <description>All models of this warband (save for the Anchorite) can buy Holy Icon Shields for 20 ducats, not just ELITE models. In addition, warband models with the ELITE Keyword may acquire Holy Icon Armour.</description>
+        </rule>
+        <rule id="e377-5c37-6e45-7823" name="Punishing Millstones" hidden="false">
+          <description>All models in the Procession of the Sacred Affliction (except Ecclesiastic Prisoners who are not worthy) add extra +1 DICE to injury rolls in melee against models that are Down.</description>
+        </rule>
+        <rule id="fcf9-0abd-7f0b-0e45" name="Melee-focused" hidden="false">
+          <description>This Warband may not have any Machine Guns and only 1 Punt Gun.</description>
+        </rule>
+        <rule id="32ea-84ce-192f-e3c3" name="Zealot Strength" hidden="false">
+          <description>Up to three Trench Pilgrims may purchase the Zealot Strength upgrade.</description>
+        </rule>
+        <rule id="abcf-03ee-7368-fc4d" name="Hammer and the Anvil" hidden="false">
+          <description>The Anti-tank Hammers of this warband are not limited to ELITE.</description>
+        </rule>
+        <rule id="bd4f-a5d7-58b2-3c61" name="Wrath of God" hidden="false">
+          <description>One Trench Pilgrim or Castigator in this warband can be gripped by the vengeful fury of the Lord. This model is immune to FEAR and disregards any BLOOD MARKERS from any source. This model may never wear armour, though they can carry a Trench Shield or Holy Icon Shield. Add +15 ducats to the cost of this model. This model may not carry any ranged weapons.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6360-22a0-44d9-589b" name="Leader" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="false"/>
+        <categoryLink id="206f-a71d-ddb7-693d" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="ec36-133b-3d77-172a" name="Trooper" hidden="false" targetId="704c-2fc0-8543-f66f" primary="false"/>
+        <categoryLink id="a7c2-3e04-605d-5717" name="Artificial" hidden="false" targetId="18bf-20ad-b0c1-0df0" primary="false"/>
+        <categoryLink id="5173-423a-78df-87ae" name="Mercenary" hidden="false" targetId="4a4d-57b7-f586-4fcd" primary="false"/>
+        <categoryLink id="5c1a-52ac-8161-ca83" name="Options" hidden="false" targetId="a56c-81d0-f629-bad4" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="d4d5-96bb-df4d-03eb" name="Cavalcade of the Tenth Plague" hidden="false">
+      <rules>
+        <rule id="2534-ded1-9fcc-3d98" name="Blood Sacrifice" hidden="false">
+          <description>Any model (except Ecclesiastic Prisoners who are not worthy) in the warband can purchase a Sacrificial Lamb.</description>
+        </rule>
+        <rule id="3b6f-5381-8b27-9ddc" name="Heaven Awaits" hidden="false">
+          <description>The Cavalcade rejects the doctrine of the Meta-Christ. Their dead Pilgrims cannot be resurrected as Martyr-Penitents.</description>
+        </rule>
+        <rule id="f9b7-4aeb-4ede-e360" name="The Unclean" hidden="false">
+          <description>The Cavalcade detests using the unclean Ecclesiastic Prisoners and may have only up to two of them.</description>
+        </rule>
+        <rule id="7b33-81dc-6df7-aed4" name="Day of his Wrath" hidden="false">
+          <description>The War Prophet of this warband cannot use Laying on Hands but can call upon the Wrath of God instead. This is a RISKY ACTION. If successful, roll on the Injury Chart against one enemy model within 3” of the Prophet. Armour offers no protection against this attack.</description>
+        </rule>
+        <rule id="44b8-2e3d-fecc-0998" name="Stolen Communicants" hidden="false">
+          <description>Communicants cost 3 Glory Points instead of ducats for this warband due to the difficulty of acquiring and indoctrinating them.</description>
+        </rule>
+        <rule id="5150-a567-d4cd-c63a" name="Favour of the Lord" hidden="false">
+          <description>At the start of each turn, you can give any one model in the warband a BLESSING MARKER.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="dd44-fdf8-06dc-fd61" name="Leader" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="false"/>
+        <categoryLink id="bb46-46a5-570c-95f0" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="ff24-a140-731f-b222" name="Trooper" hidden="false" targetId="704c-2fc0-8543-f66f" primary="false"/>
+        <categoryLink id="cd7c-17e2-a3ec-c2e5" name="Artificial" hidden="false" targetId="18bf-20ad-b0c1-0df0" primary="false"/>
+        <categoryLink id="d7ad-86ce-e04e-b289" name="Mercenary" hidden="false" targetId="4a4d-57b7-f586-4fcd" primary="false"/>
+        <categoryLink id="e995-f19d-a1e0-eec0" name="Options" hidden="false" targetId="a56c-81d0-f629-bad4" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="aa84-c1cc-caa1-6167" name="War Pilgrimage of St. Methodius" hidden="false">
+      <rules>
+        <rule id="9f06-157a-84b8-48cd" name="Anchorite Cloister" hidden="false">
+          <description>This warband may buy up to two Anchorite Shrines.</description>
+        </rule>
+        <rule id="1a2e-99f4-281b-14c7" name="Anchorite Armoury" hidden="false">
+          <description>This warband may alter the weaponry and equipment of their Anchorites. Anchorites of St. Methodius have +0 DICE to their Ranged Characteristic.</description>
+        </rule>
+        <rule id="a134-ab90-3c1e-c9c8" name="Mortal Sin" hidden="false">
+          <description>No Ecclesiastic Prisoner of the Warband may be equipped with a Martyrdom Device, and no member of the Warband can be Broken on the Wheel.</description>
+        </rule>
+        <rule id="5ef6-a65d-4920-01a8" name="Communicant Heresy" hidden="false">
+          <description>The Pilgrims of St. Methodius oppose the creation of Communicants, and therefore cannot include them in their warbands. This includes Mercenaries.</description>
+        </rule>
+        <rule id="1ef0-b5f9-e103-8ff1" name="Treasure in Heaven" hidden="false">
+          <description>The Trench Pilgrims of this warband cannot be resurrected as Martyr-Penintents.</description>
+        </rule>
+        <rule id="ea7a-ddc7-b9d4-488e" name="Chaste Order" hidden="false">
+          <description>While they revere the holy stigmata of the Nuns of the order, the fathers of the monasteries shun the ecstatic revelry of many Trench Pilgrms and insist on modest dress. All Stigmatic Nuns of the Warband must wear Standard Armour. In addition, the warband may only have a maximum of 3 Stimatic Nuns.</description>
+        </rule>
+        <rule id="ffc7-8558-88f7-a99b" name="Gunsmith Monks" hidden="false">
+          <description>The warband can buy Machine Guns (LIMIT: 2) at a cost of 50 ducats each, Automatic Rifle (LIMIT: 1) for 40 ducats, and a submachine gun (LIMIT: 1) for 30 ducats.</description>
+        </rule>
+        <rule id="d272-e4a8-42ab-dff5" name="Followers of St. Methodius" hidden="false">
+          <description>The Patron of the Warband is always a Learned Saint.</description>
+        </rule>
+        <rule id="15e6-e942-0c30-23a7" name="Anchorite Weapons" hidden="false">
+          <description>Due to its construction and immense size, any Anchorite of this Warband may use any one of 
+these weapons as a single-handed weapon. The Anchrorite may replace its Breaking Wheel 
+with one of these weapons at the cost indicated below. You can change these weapons and 
+equipment between battles, but you must sell the old weapon at half price and install a new one.  
+Heavy Flamethrower 45 ducats 
+Anti-Materiel Rifle 2 Glory 
+Punt Gun 10 ducats 
+Trench Mortar 40 ducats 
+Autocannon (55 ducats) 
+Gas Censer (50 ducats)</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ae21-f297-b291-8727" name="Leader" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="false"/>
+        <categoryLink id="e502-3249-7ccb-1f63" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="9d6e-b2d7-e7a2-6c75" name="Trooper" hidden="false" targetId="704c-2fc0-8543-f66f" primary="false"/>
+        <categoryLink id="60eb-e5a9-2ed3-699c" name="Artificial" hidden="false" targetId="18bf-20ad-b0c1-0df0" primary="false"/>
+        <categoryLink id="8c4f-b9e9-1b48-e231" name="Mercenary" hidden="false" targetId="4a4d-57b7-f586-4fcd" primary="false"/>
+        <categoryLink id="eadd-84db-3c7b-d4dc" name="Options" hidden="false" targetId="a56c-81d0-f629-bad4" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="a762-594a-d627-de19" name="War Prophet" hidden="false" collective="false" import="true" targetId="a6df-a9ab-3ac0-0d26" type="selectionEntry"/>
+    <entryLink id="f23b-4745-d9f9-0e87" name="Castigator" hidden="false" collective="false" import="true" targetId="ba46-5025-0f20-49d0" type="selectionEntry"/>
+    <entryLink id="f7f7-b08a-35d0-312e" name="Communicant" hidden="false" collective="false" import="true" targetId="c01a-e069-ffea-a482" type="selectionEntry"/>
+    <entryLink id="ff56-a929-876b-02d9" name="Trench Pilgrim" hidden="false" collective="false" import="true" targetId="2492-96c0-96c7-fa2e" type="selectionEntry"/>
+    <entryLink id="690d-51ae-b0a0-b97b" name="Ecclesiastic Prisoners" hidden="false" collective="false" import="true" targetId="dbad-6b93-c4bd-bae2" type="selectionEntry"/>
+    <entryLink id="eecd-3fe2-7eb8-304d" name="Stigmatic Nuns" hidden="false" collective="false" import="true" targetId="4ed7-eabc-cf52-ea32" type="selectionEntry"/>
+    <entryLink id="e9f8-eeef-3393-a6e3" name="Anchorite Shrine" hidden="false" collective="false" import="true" targetId="abd3-81c2-9650-884d" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="a6df-a9ab-3ac0-0d26" name="War Prophet" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bb3a-3682-3862-7056" name="War Prophet" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifiers>
+            <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Punishing Millstones">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="b62f-dfa4-5f98-411d" value="Loudspeakers, Memento Mori, Day of his Wrath">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4d5-96bb-df4d-03eb" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="a6df-a9ab-3ac0-0d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2953-6830-45fa-6e3e" type="atLeast"/>
+                        <condition field="selections" scope="a6df-a9ab-3ac0-0d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5a7-f31c-9126-21a5" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-2">
+                  <conditions>
+                    <condition field="selections" scope="a6df-a9ab-3ac0-0d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd2b-866a-180f-d68d" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="cdf9-8f81-7019-a693" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="a6df-a9ab-3ac0-0d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                        <condition field="selections" scope="a6df-a9ab-3ac0-0d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+2 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+2 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">32mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Loudspeakers, Memento Mori, Laying on Hands</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="20c1-02f3-1fbe-8c3f" name="Loudspeakers" hidden="false">
+          <description>The War Prophet blares out holy sermons and dire prophecies at 100 decibels to inspire the faithful. The Prophet can take a RISKY ACTION with +2 DICE once during each Activation. If the action is successful, all friendly models within 8” of the Prophet (including the Prophet) that are not engaged in melee can immediately move up to 3” towards any enemy model they can see by the optimal path that reduces the distance between the moving model and the enemy. This move allows them to enter combat as if they charged the enemy and are considered to have done so until the end of the turn.</description>
+        </rule>
+        <rule id="1366-b717-3eea-d152" name="Memento Mori" hidden="false">
+          <description>The War Prophet is touched by a higher power and the revealed truth allows them a degree of protection against premature death. Once per battle, when the War Prophet is taken Out of Action for any reason, ignore the result as if nothing had happened.</description>
+        </rule>
+        <rule id="e7fd-c2d4-7d33-cc7d" name="Laying on Hands" hidden="false">
+          <description>With a successful ACTION, you may remove D3 BLOOD MARKERs from any friendly model within 6” (including the Prophet).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6207-ef6e-16e6-03bf" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="a9f8-2baa-1a59-675f" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+        <categoryLink id="5f9e-a3a9-35c9-fa77" name="New CategoryLink" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d3f2-713b-6dbf-cb29" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="2a1a-4d0c-bb2c-2db4" type="selectionEntryGroup"/>
+        <entryLink id="bef6-2aaf-6491-3b2a" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="7ef5-fa1e-87b1-bc66" type="selectionEntryGroup"/>
+        <entryLink id="352e-c853-ac72-36e9" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="c34c-9dbe-d6bb-afd0" type="selectionEntryGroup"/>
+        <entryLink id="8a0e-9782-5583-93c9" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="9190-0d40-f290-5d3a" type="selectionEntryGroup"/>
+        <entryLink id="4e4e-5b86-f708-656e" name="Armour" hidden="false" collective="false" import="true" targetId="f2a7-3ec8-94f4-5cc0" type="selectionEntryGroup"/>
+        <entryLink id="9e71-e68d-a73d-57a6" name="Equipment" hidden="false" collective="false" import="true" targetId="03ac-fcba-a034-2b93" type="selectionEntryGroup"/>
+        <entryLink id="52fa-724f-f20b-3d76" name="Grenades" hidden="false" collective="false" import="true" targetId="ae2c-b220-ce32-709f" type="selectionEntryGroup"/>
+        <entryLink id="7ae3-8f44-2fcc-98e1" name="Headgear" hidden="false" collective="false" import="true" targetId="5bbc-956d-81a9-bf4d" type="selectionEntryGroup"/>
+        <entryLink id="abde-bc0f-c0d4-e8ba" name="Shields" hidden="false" collective="false" import="true" targetId="a067-35c0-830f-1c52" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="80.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba46-5025-0f20-49d0" name="Castigator" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="c9cd-710d-3abf-2131">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ba7b-7ca6-6744-7988" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0340-ad7a-412c-a2d7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0d07-046a-e86b-6bab" name="Castigator" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifiers>
+            <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Punishing Millstones, Wrath of God">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Strong">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ba7b-7ca6-6744-7988" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2953-6830-45fa-6e3e" type="atLeast"/>
+                        <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5a7-f31c-9126-21a5" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-2">
+                  <conditions>
+                    <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd2b-866a-180f-d68d" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="cdf9-8f81-7019-a693" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                        <condition field="selections" scope="ba46-5025-0f20-49d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+1 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">32mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Enforced Orthodoxy, Whip of God, Zealot Strength</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5326-eea5-3173-9843" name="Enforced Orthodoxy" hidden="false">
+          <description>At any point during its Activation, a Castigator may take a RISKY ACTION with +1 DICE. If successful, all friendly models that are Down and within 8” of the Castigator may immediately stand up at no penalty or cost.</description>
+        </rule>
+        <rule id="5089-d589-593a-b0b4" name="Whip of God" hidden="false">
+          <description>Unlike other models, a Castigator is allowed to attack friendly models with melee attacks within 1”. They can do this without declaring a charge. Each time the Castigator takes a friendly model Out of Action with a melee attack, set a die aside in a pool as the act of piety inspires the troops. The next time your warband makes a Morale roll, add an amount of +DICE to that roll equal to the amount of dice in the pool and empty it.</description>
+        </rule>
+        <rule id="6097-c23a-1291-8533" name="Castigator Zealot Strength" hidden="false">
+          <description>The Castigator may have the Keyword STRONG at the cost of +5 ducats.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f981-505a-922e-cf46" name="New CategoryLink" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="true"/>
+        <categoryLink id="60ed-7bf8-8b8d-d966" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ba7b-7ca6-6744-7988" name="Zealot Strength" hidden="false" collective="false" import="true" targetId="2cf6-c24a-9eb7-28c6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e9-76da-9bdd-e77d" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8f2c-af29-ec6c-f9ab" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d8e9-3fe7-33c2-3587" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="2a1a-4d0c-bb2c-2db4" type="selectionEntryGroup"/>
+        <entryLink id="8f37-0207-f8bb-4c69" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="7ef5-fa1e-87b1-bc66" type="selectionEntryGroup"/>
+        <entryLink id="53f3-6304-6f12-4eb0" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="c34c-9dbe-d6bb-afd0" type="selectionEntryGroup"/>
+        <entryLink id="7c67-8ce8-d3e1-de29" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="9190-0d40-f290-5d3a" type="selectionEntryGroup"/>
+        <entryLink id="fb62-1da1-afe9-974f" name="Armour" hidden="false" collective="false" import="true" targetId="f2a7-3ec8-94f4-5cc0" type="selectionEntryGroup"/>
+        <entryLink id="1cdf-21ee-842f-7470" name="Headgear" hidden="false" collective="false" import="true" targetId="5bbc-956d-81a9-bf4d" type="selectionEntryGroup"/>
+        <entryLink id="fcdc-114b-9834-5363" name="Shields" hidden="false" collective="false" import="true" targetId="a067-35c0-830f-1c52" type="selectionEntryGroup"/>
+        <entryLink id="0ff1-7f97-0ea6-cf59" name="Grenades" hidden="false" collective="false" import="true" targetId="ae2c-b220-ce32-709f" type="selectionEntryGroup"/>
+        <entryLink id="9e0e-64e7-284f-a2f1" name="Equipment" hidden="false" collective="false" import="true" targetId="03ac-fcba-a034-2b93" type="selectionEntryGroup"/>
+        <entryLink id="cdec-48e6-11b8-34a6" name="Wrath of God" hidden="false" collective="false" import="true" targetId="e4ef-dcef-6f06-81d9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="200d-84e9-d09d-c778" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2cf6-c24a-9eb7-28c6" name="Zealot Strength" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c01a-e069-ffea-a482" name="Communicant" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="e3dd-6bfc-c037-3dcc" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4d5-96bb-df4d-03eb" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="051b-a11e-6a08-7276" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4d5-96bb-df4d-03eb" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd79-e750-bf22-86ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7364-13ec-4656-ece1" name="Communicant" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifiers>
+            <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Punishing Millstones">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="c01a-e069-ffea-a482" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5a7-f31c-9126-21a5" type="atLeast"/>
+                        <condition field="selections" scope="c01a-e069-ffea-a482" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2953-6830-45fa-6e3e" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-2">
+                  <conditions>
+                    <condition field="selections" scope="c01a-e069-ffea-a482" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd2b-866a-180f-d68d" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="cdf9-8f81-7019-a693" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="c01a-e069-ffea-a482" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                        <condition field="selections" scope="c01a-e069-ffea-a482" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">-3 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+2 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">40mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Strong, Tough, Miracle of Regeneration, Bodyguard</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8c35-825b-7290-b953" name="Miracle of Regeneration" hidden="false">
+          <description>At the start of each of their Activations, the Communicant can remove one BLOOD MARKER from themselves, if they have any.</description>
+        </rule>
+        <rule id="3a51-0925-2ccb-a2c3" name="Bodyguard" hidden="false">
+          <description>If any model with the PILGRIM Keyword within 1” of the Communicant is hit by a ranged or melee weapon (excluding BLAST weapons), you can choose to redirect the hit against the Communicant instead. Determine the injuries exactly as if the weapon just hit the Communicant.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="86df-aad6-c6bb-ec48" name="New CategoryLink" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="true"/>
+        <categoryLink id="1ec6-6b0c-f87f-cd55" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+        <categoryLink id="79cd-19d9-8c8c-0584" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="443e-7606-5f3a-2096" name="Tough" hidden="false" targetId="65a7-7c05-065c-2bcb" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b252-10cd-7e82-cd15" name="The Communicant Cross" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4abd-6b63-804b-eb5e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3abb-6b5e-1761-f42f" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="b84d-c40e-788c-5f78" name="The Communicant Cross" hidden="false">
+              <description>A sacred cross is nailed on the face of the Communicant. This counts as an Iron Capirote, Combat Helmet and a Gas Mask.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3b9f-f885-df21-9c03" name="Grenades" hidden="false" collective="false" import="true" targetId="ae2c-b220-ce32-709f" type="selectionEntryGroup"/>
+        <entryLink id="eb70-11a6-2263-4ebd" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="7ef5-fa1e-87b1-bc66" type="selectionEntryGroup"/>
+        <entryLink id="3782-0363-57ee-af87" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="c34c-9dbe-d6bb-afd0" type="selectionEntryGroup"/>
+        <entryLink id="e516-30c3-9450-e3f2" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="9190-0d40-f290-5d3a" type="selectionEntryGroup"/>
+        <entryLink id="0ff8-9056-5ac7-c602" name="Armour" hidden="false" collective="false" import="true" targetId="f2a7-3ec8-94f4-5cc0" type="selectionEntryGroup"/>
+        <entryLink id="3ac9-e5dd-93c3-0840" name="Equipment" hidden="false" collective="false" import="true" targetId="03ac-fcba-a034-2b93" type="selectionEntryGroup"/>
+        <entryLink id="6c9c-58b2-10f6-3020" name="Shields" hidden="false" collective="false" import="true" targetId="a067-35c0-830f-1c52" type="selectionEntryGroup"/>
+        <entryLink id="45e7-345e-e1c6-cecc" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="2a1a-4d0c-bb2c-2db4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="100.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2492-96c0-96c7-fa2e" name="Trench Pilgrim" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f8b0-40de-aca1-ea7b" name="Trench Pilgrim" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifiers>
+            <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Punishing Millstones, Wrath of God">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="2492-96c0-96c7-fa2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5a7-f31c-9126-21a5" type="atLeast"/>
+                        <condition field="selections" scope="2492-96c0-96c7-fa2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2953-6830-45fa-6e3e" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-2">
+                  <conditions>
+                    <condition field="selections" scope="2492-96c0-96c7-fa2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd2b-866a-180f-d68d" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="cdf9-8f81-7019-a693" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="2492-96c0-96c7-fa2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                        <condition field="selections" scope="2492-96c0-96c7-fa2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06"/>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781"/>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">25mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Resurrection, Zealot Strength</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="02ca-1627-e5e5-35db" name="Resurrection" hidden="false">
+          <description>When a Trench Pilgrim dies, you may elect to re-buy them as a Martyr-Penitent resurrected by a Meta-Christ for a cost of 45 Ducats after battle. When hit, any attacks against a Martyr-Penitent add -1 DICE when rolling on the Injury Table. Their Melee bonus is increased to +1 DICE (reflected on the profile above). Martyr-Penitents retain any possessions they had before dying and being resurrected, but lose any Scars and advancements they had if they were ELITE via Campaign promotion.</description>
+        </rule>
+        <rule id="0ba9-19ff-0570-104c" name="Trench Pilgrim Zealot Strength" hidden="false">
+          <description>One Trench Pilgrim may have the Keyword STRONG at the cost of +5 ducats.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="198c-7beb-472c-0756" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="02b6-c5b9-7eaf-67f9" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c8cf-b384-5b73-4275" name="Zealot Strength" hidden="false" collective="false" import="true" targetId="2cf6-c24a-9eb7-28c6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="218e-2634-9c6c-a343" value="3.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06e7-8698-4b68-ae60" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="218e-2634-9c6c-a343" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4967-b80f-f999-9519" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="2a1a-4d0c-bb2c-2db4" type="selectionEntryGroup"/>
+        <entryLink id="8c4a-d24e-d26a-f17e" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="7ef5-fa1e-87b1-bc66" type="selectionEntryGroup"/>
+        <entryLink id="8320-e41a-2e1d-9340" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="c34c-9dbe-d6bb-afd0" type="selectionEntryGroup"/>
+        <entryLink id="baa3-dfd8-7a29-47a6" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="9190-0d40-f290-5d3a" type="selectionEntryGroup"/>
+        <entryLink id="b450-5e2f-a879-5835" name="Armour" hidden="false" collective="false" import="true" targetId="f2a7-3ec8-94f4-5cc0" type="selectionEntryGroup"/>
+        <entryLink id="6c38-ac08-fa52-9da1" name="Equipment" hidden="false" collective="false" import="true" targetId="03ac-fcba-a034-2b93" type="selectionEntryGroup"/>
+        <entryLink id="c340-5d5a-f852-45db" name="Grenades" hidden="false" collective="false" import="true" targetId="ae2c-b220-ce32-709f" type="selectionEntryGroup"/>
+        <entryLink id="8ca1-dba2-7f99-5764" name="Headgear" hidden="false" collective="false" import="true" targetId="5bbc-956d-81a9-bf4d" type="selectionEntryGroup"/>
+        <entryLink id="3583-92c5-8c7d-debe" name="Shields" hidden="false" collective="false" import="true" targetId="a067-35c0-830f-1c52" type="selectionEntryGroup"/>
+        <entryLink id="dafb-6474-b601-5378" name="Wrath of God" hidden="false" collective="false" import="true" targetId="e4ef-dcef-6f06-81d9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80fa-b72f-d962-d2dc" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dbad-6b93-c4bd-bae2" name="Ecclesiastic Prisoners" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="0205-181f-fe0f-7b93" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4d5-96bb-df4d-03eb" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0205-181f-fe0f-7b93" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3875-b5d8-7bd4-97f4" name="Ecclesiastic Prisoners" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">N/A</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">-1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">25mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Prisoner Equipment, Martyrdom Device, Awaited, Mad Dash</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="27a8-1dd3-e34d-75fc" name="Prisoner Equipment" hidden="false">
+          <description>Ecclesiastic Prisoners are equipped with Iron Capirotes and this equipment cannot be removed, except by being Broken on the Wheel. Prisoners fight unarmed in melee, flailing feebly with their manacled arms. The -1D penalty to melee combat is already included in the profile above. Ecclesiastic Prisoners cannot be equipped with any weapons, armour or equipment from the Trench Pilgrims Armoury. They may be equipped with Martyrdom Devices for 35 ducats</description>
+        </rule>
+        <rule id="63e3-9dae-e6bb-3416" name="Martyrdom Device" hidden="false">
+          <description>A Prisoner strapped with a Martyrdom Device can trigger it at any point during their Activation. This does not require an ACTION. When detonated, the explosion is treated as a BLAST 3” weapon targeting the prisoner model. Models within 1” of the prisoner hit by the explosion roll their injuries with +1 DICE. The prisoner rolls 4d6 and adds them together to determine the results of their injury roll. If the explosive goes off and the prisoner somehow survives the battle, you can buy them a new explosive for 35 ducats as normal, or simply field them without.</description>
+        </rule>
+        <rule id="487e-a85d-4b4c-d264" name="Awaited" hidden="false">
+          <description>If the Ecclesiastic Prisoner is taken Out of Action by its Martyrdom Device, it does not count as being Out of Action for any rules related to Morale.</description>
+        </rule>
+        <rule id="ddd8-54b4-321a-135c" name="Mad Dash" hidden="false">
+          <description>Ecclesiastic Prisoner can add +1 DICE to their Dash  ACTION.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1761-daea-b2dd-7f8a" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="1c40-fd9a-bbc1-3818" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d75f-5ca8-d520-f341" name="Martyrdom Device" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b8d-6b3d-8112-0a73" type="max"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="143b-3862-539f-97d0" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="3b32-4eaa-07a1-3e89" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="35.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ed7-eabc-cf52-ea32" name="Stigmatic Nun" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="3052-4b55-9a67-5371" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3052-4b55-9a67-5371" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1429-7b8c-affa-0964" name="Stigmatic Nun" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifiers>
+            <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Punishing Millstones">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="4ed7-eabc-cf52-ea32" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5a7-f31c-9126-21a5" type="atLeast"/>
+                        <condition field="selections" scope="4ed7-eabc-cf52-ea32" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2953-6830-45fa-6e3e" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="cdf9-8f81-7019-a693" value="-2">
+                  <conditions>
+                    <condition field="selections" scope="4ed7-eabc-cf52-ea32" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd2b-866a-180f-d68d" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="cdf9-8f81-7019-a693" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="4ed7-eabc-cf52-ea32" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                        <condition field="selections" scope="4ed7-eabc-cf52-ea32" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">8&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+1 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">25mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Blessed Stigmata, Agile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="342f-a4c2-9c58-faa7" name="Blessed Stigmata" hidden="false">
+          <description>At the start of each of their Activations, any Stigmatic Nun can remove one BLOOD MARKER (but not an INFECTION MARKER) from themselves and convert it into a BLESSING MARKER.</description>
+        </rule>
+        <rule id="3f7b-bc3f-6255-56c9" name="Agile" hidden="false">
+          <description>Stigmatic Nuns may take any Dash ACTION or jump/climb/Diving Charge ACTION with +1 DICE.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0493-e028-6c78-79e1" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="4509-a657-c799-5694" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="758d-0eef-5c16-6518" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="2a1a-4d0c-bb2c-2db4" type="selectionEntryGroup"/>
+        <entryLink id="9dde-bd15-1deb-b337" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="7ef5-fa1e-87b1-bc66" type="selectionEntryGroup"/>
+        <entryLink id="1156-059f-83ba-7a09" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="c34c-9dbe-d6bb-afd0" type="selectionEntryGroup"/>
+        <entryLink id="c02f-7b7e-d80e-a831" name="Armour" hidden="false" collective="false" import="true" targetId="f2a7-3ec8-94f4-5cc0" type="selectionEntryGroup"/>
+        <entryLink id="361a-12d4-a0f4-1623" name="Equipment" hidden="false" collective="false" import="true" targetId="03ac-fcba-a034-2b93" type="selectionEntryGroup"/>
+        <entryLink id="e52e-e38b-dde0-9028" name="Grenades" hidden="false" collective="false" import="true" targetId="ae2c-b220-ce32-709f" type="selectionEntryGroup"/>
+        <entryLink id="4209-8af7-c14c-a3bf" name="Headgear" hidden="false" collective="false" import="true" targetId="5bbc-956d-81a9-bf4d" type="selectionEntryGroup"/>
+        <entryLink id="a5cf-cd12-2779-e828" name="Shields" hidden="false" collective="false" import="true" targetId="a067-35c0-830f-1c52" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abd3-81c2-9650-884d" name="Anchorite Shrine" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="e300-a4d5-4d00-7421" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e300-a4d5-4d00-7421" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c28c-d173-a166-e139" name="Anchorite Shrine" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifiers>
+            <modifier type="append" field="b62f-dfa4-5f98-411d" value="| Punishing Millstones">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="cb8a-1e13-fc9c-7d06" value="+0 Dice">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">N/A</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+2 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">-3</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">60mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Fear, Tough, Strong, Shrine Equipment, Broken on The Wheel, </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="da88-227c-c1fa-c569" name="Shrine Equipment" hidden="false">
+          <description>You cannot buy additional equipment, weapons or armour for Anchorite Shrines. Each Anchorite Shrine is equipped with a suit of Machine Armour, a Combat Helmet, a Catherine Wheel and a Bonebreaker Mace. These pieces of equipment are built into the integrity of its construction and cannot be removed or lost in any way. The Anchorite may make one attack ACTION with each of these weapons in Melee Combat and may make no other attacks during its Activation (so it can make two attacks per Activation).</description>
+        </rule>
+        <rule id="4849-2ff5-c3fc-6923" name="Broken on the Wheel" hidden="false">
+          <description>Before the start of the battle, one Trench Pilgrim or Ecclesiastic Prisoner may voluntarily be broken on the wheel to show their piety and devotion (permanently remove all weapons, armour and equipment from the victim and use/store them as you wish). The Anchorite Shrine will then shatter the bones of the volunteer and carry the broken victim to the battle on its Wheel. As long as the volunteer is not taken Out of Action, any Attacks against the Anchorite are redirected to the volunteer. The volunteer cannot be independently targeted by any abilities or attacks (including BLAST weapons). For all rules purposes and attack effects (such as forced movement), the two models are treated as a single model, including sharing BLOOD, INFECTION and BLESSING MARKERS. Treat Down results against the volunteer as a Minor Hit. The volunteer cannot take any ACTIONS, be Activated separately or move – for obvious reasons. At the end of the battle, even if the volunteer may have survived, the model dies and is removed from your warband.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3f53-bb01-e6db-ea69" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="d2f6-a833-8c11-c123" name="Pilgrim" hidden="false" targetId="3a28-f7b8-f544-7fd6" primary="false"/>
+        <categoryLink id="762c-7411-5ca0-68f7" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="6f15-95c0-c5b2-4cfe" name="Tough" hidden="false" targetId="65a7-7c05-065c-2bcb" primary="false"/>
+        <categoryLink id="f3ef-bf80-fb8b-9b22" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4de0-5898-1497-cbd3" name="Bonebreaker Mace" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ecc-cb0b-c924-b3ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002c-19ca-af11-9233" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="eadd-cd29-844b-9913" name="Bonebreaker Mace" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+                <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+                <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Injuries</characteristic>
+                <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Risky Action</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="54a2-4b22-53e3-eccb" name="Bonebreaker Mace" hidden="false">
+              <description>The Anchorite Shrine treats the Bonebreaker Mace as a one-handed melee weapon with the Keyword RISKY. The Bonebreaker Mace has a +1 DICE bonus to injure. Because the Mace is wielded alongside the Catherine Wheel, it is treated as an Off-Hand Weapon and suffers penalties accordingly.</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink id="94c7-8ff6-cffb-f2a8" name="Risky Action" hidden="false" targetId="9f2c-61e5-a38d-1bbc" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7b2c-e523-4693-c4df" name="Combat Helmet" hidden="false" collective="false" import="true" targetId="4e0a-8eae-9538-43d8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e422-9d44-0c79-6e1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c93f-d1d4-ea05-2e60" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7eeb-2035-2151-aea9" name="Anchorite Weapons" hidden="false" collective="false" import="true" targetId="83a1-8f17-2633-afad" type="selectionEntryGroup"/>
+        <entryLink id="ca71-abba-dd89-e91f" name="Anchorite Equipment" hidden="false" collective="false" import="true" targetId="fb82-f999-5447-0fe3" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="140.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4ef-dcef-6f06-81d9" name="Wrath of God" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fbe8-c948-fe35-d508" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb3e-046c-ac5b-9171" name="Gas Censer" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="68af-2ad6-ce87-f1fa" name="Gas Censer" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Special</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">Ignore Armour</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Gas, Blast 6&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f23a-3a59-3a56-abc0" name="Gas Censer" hidden="false">
+          <description>The Anchorite may make an injury roll against all models within 6” except the Anchorite itself. Note that all models within range, friend or foe, are hit if the weapon is used. No Line of Sight is needed. The attack has the Keyword GAS and Ignores Armour, unless the models are in Cover in which case armour works as normal. The use of the Gas Censer always ends the Activation of this model.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8f6b-4b4e-ccc8-0630" name="Gas" hidden="false" targetId="90c5-6f22-b2d8-eb40" primary="false"/>
+        <categoryLink id="39d5-550d-fba4-ec40" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3e3-9bac-d779-a888" name="Autocannon" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5f32-2086-5af9-a88f" name="Autocannon" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">48&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">3 Attacks, +1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="adf4-f11a-2c6e-e9f1" name="Autocannon" hidden="false">
+          <description>Autocannons can make three Attack ACTIONS instead of one. They can target separate models with each 
+attack, as long as all targets are within 6” of each other. After taking all three attacks the Activation of the model is 
+over regardless of any remaining ACTIONS the model might have. Add +1 DICE to all injury rolls. They can shoot 
+up to five times instead of three if they take ALL the attacks as RISKY ACTIONS.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="427d-38a6-9c96-c885" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="55.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eae3-dc3d-fb0d-1227" name="Trench Mortar" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="0019-a498-9a97-5215" name="Trench Mortar" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">48&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">Ignore Cover, +1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Fire, Heavy, Blast 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1e2b-3486-43ca-e5ef" name="Trench Mortar" hidden="false">
+          <description>Specify a point on the battlefield within 36” (must be in line of sight) that you want to target. Next, take a Ranged Attack ACTION. If the roll fails (i.e. you roll 6 or less), the bomb lands 1” away from its intended location, multiplied by the number representing the degree of failure (for example, if you rolled 5, the bombard shot lands 2” away, as 7 – 5 = 2). The direction is decided by your opponent. All models within 3” of the 1 x 1 mm landing spot are hit as the shell explodes – no roll to hit is needed. This weapon has a BLAST radius of 3” – all models within this range are hit. Add +1 DICE to all injury rolls.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e780-a254-254e-738f" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="f5b4-b7ec-1041-a4e9" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+        <categoryLink id="be6a-f9ed-2a38-fff9" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="3a74-e1c9-bc11-1fdd" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe78-e763-0701-0ccf" name="Catherine Wheel" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="64d4-4c78-8b73-d4d7" name="Catherine Wheel" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit, 3d6 to roll Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Risky Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aeb1-5ef8-0695-0bca" name="Catherine Wheel" hidden="false">
+          <description>The Anchorite Shrine treats the Catherine Wheel as a one-handed melee weapon with the Keywords RISKY and HEAVY that grants a +1 DICE bonus to hit (for a total of +3 DICE due to its Melee Characteristic). Because of the enormous weight and the skill of the Anchorite Shrine in inflicting maximum pain, the Catherine Wheel rolls on the Injury Chart with 3D6 (instead of usual 2D6), adding all three dice together!</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a8bc-3dfc-c56f-e9f7" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="45c7-5ea1-886c-f019" name="Risky Action" hidden="false" targetId="9f2c-61e5-a38d-1bbc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="2a1a-4d0c-bb2c-2db4" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="5d20-bc4a-f012-1da7" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c34c-9dbe-d6bb-afd0" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="5d20-bc4a-f012-1da7" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c34c-9dbe-d6bb-afd0" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d20-bc4a-f012-1da7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b3f4-48f2-d0c0-9a65" name="Trench Knife/Dagger" hidden="false" collective="false" import="true" targetId="98ed-4714-6800-5772" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="41a8-4803-b96c-a5ab" name="Trench Club" hidden="false" collective="false" import="true" targetId="aa52-3801-52a2-a5c2" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="15b3-6b8e-7a85-e3dc" name="Sword/Axe" hidden="false" collective="false" import="true" targetId="c090-d971-10aa-ef8a" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="4.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a2cc-25eb-0716-4f96" name="Scourge/Battle Whip/Flail" hidden="false" collective="false" import="true" targetId="3b3b-62b9-627b-a89d" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7451-0ad5-0a38-bb16" name="Misericordia" hidden="false" collective="false" import="true" targetId="d6ed-39f0-a7b6-5663" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9282-5bda-e0e2-d252" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7ef5-fa1e-87b1-bc66" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="f93d-044e-46ba-7464" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9190-0d40-f290-5d3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f93d-044e-46ba-7464" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f93d-044e-46ba-7464" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1c68-1343-6e00-e428" name="Pistol" hidden="false" collective="false" import="true" targetId="6e94-d899-dc2e-61c2" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e745-2b09-cbe1-e61c" name="Automatic Pistol" hidden="false" collective="false" import="true" targetId="728b-b2f4-5945-ef57" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f01e-2438-e5a8-3dbb" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c34c-9dbe-d6bb-afd0" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="36d9-c76a-5843-8c0c" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atMost"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="36d9-c76a-5843-8c0c" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="notInstanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a1a-4d0c-bb2c-2db4" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a1a-4d0c-bb2c-2db4" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d9-c76a-5843-8c0c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6715-46c8-443e-6e82" name="Trench Polearm" hidden="false" collective="false" import="true" targetId="70db-cc19-44ed-a481" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="96d9-a147-4342-67ed" name="2-Handed Hammer" hidden="false" collective="false" import="true" targetId="39c3-55f3-ab56-d2ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b6da-f663-0271-ae81" name="Great Sword/Axe" hidden="false" collective="false" import="true" targetId="f9ec-b98f-9f38-ffb4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="12.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="bd92-96f4-1ea2-9f96" name="Anti-Tank Hammer" hidden="false" collective="false" import="true" targetId="96d3-d93b-45ca-3b5a" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f7-0fa6-330e-dff2" type="notInstanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2ba6-8084-c105-6e31" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9190-0d40-f290-5d3a" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="220d-b6c7-2c13-039f" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ef5-fa1e-87b1-bc66" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="220d-b6c7-2c13-039f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8a39-84a4-64b3-9b1b" name="Bolt Action Rifle" hidden="false" collective="false" import="true" targetId="9742-157c-7189-6081" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="3d4d-6d5b-b7aa-6a67" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2bad-a271-1af6-4b24" name="Semi-Automatic Rifle" hidden="false" collective="false" import="true" targetId="72c7-bd5c-d0f6-cdab" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="1c85-37b8-2dfc-eada" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6f67-02a1-5a8c-147d" name="Submachine Gun" hidden="false" collective="false" import="true" targetId="c801-0ec5-7252-65dd" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="47d7-9078-b860-9817" value="1.0"/>
+                <modifier type="set" field="e3dd-6bfc-c037-3dcc" value="0.0"/>
+                <modifier type="set" field="051b-a11e-6a08-7276" value="30.0"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47d7-9078-b860-9817" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5678-6f65-761d-d01d" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c698-832e-a206-8fee" name="Musket" hidden="false" collective="false" import="true" targetId="3bed-906c-d0dc-198d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="32fb-bf80-e39b-c28a" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0ee0-10ed-1d5f-d8d4" name="Shotgun" hidden="false" collective="false" import="true" targetId="ec3d-b176-af2b-0f7a" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="42b9-ce89-564d-200e" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0b03-f278-8656-ff5b" name="Flamethrower" hidden="false" collective="false" import="true" targetId="34bd-2be2-6f0f-3ee1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1135-c393-16a1-c16e" name="Machine Gun" hidden="false" collective="false" import="true" targetId="5be9-bd2b-a2e3-86c4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="13d3-07cc-6a6c-e4de" value="2.0"/>
+                <modifier type="set" field="e3dd-6bfc-c037-3dcc" value="0.0"/>
+                <modifier type="set" field="051b-a11e-6a08-7276" value="50.0"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13d3-07cc-6a6c-e4de" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6606-04b6-fabf-e842" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="7513-0b9d-f8c6-ccb8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="743c-1217-c165-0a72" name="Punt Gun" hidden="false" collective="false" import="true" targetId="502e-fa1a-9791-0175" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da9d-d67e-640c-ee73" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a9-ed1d-aeb5-6420" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="d283-7750-babd-f932" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d283-7750-babd-f932" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="07ef-a4a7-e770-f3ff" name="Automatic Rifle" hidden="true" collective="false" import="true" targetId="61e0-32e9-1db7-a096" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eecc-6c81-9662-7531" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f2a7-3ec8-94f4-5cc0" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0841-5e38-3988-236e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c5a7-f31c-9126-21a5" name="Standard Armour" hidden="false" collective="false" import="true" targetId="62c3-43d1-3d44-1b49" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="41ba-f204-a20d-36fc" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ed7-eabc-cf52-ea32" type="instanceOf"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ba-f204-a20d-36fc" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="dd2b-866a-180f-d68d" name="Reinforced Armour" hidden="false" collective="false" import="true" targetId="c6d3-4ed3-9af8-b03d" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f7-0fa6-330e-dff2" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2953-6830-45fa-6e3e" name="Holy Icon Armour" hidden="true" collective="false" import="true" targetId="1d0a-4ad7-c852-ed5e" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f7-0fa6-330e-dff2" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="03ac-fcba-a034-2b93" name="Equipment" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="cda9-9d94-5e0b-932a" name="Holy Relic" hidden="false" collective="false" import="true" targetId="39ed-9ea2-a692-176b" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f7-0fa6-330e-dff2" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd8-0669-68d8-b0f0" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="84be-acc5-09a8-6973" name="Gas Mask" hidden="false" collective="false" import="true" targetId="01ec-8286-4ec2-28b5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2658-0cc6-2ea8-0168" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a626-731f-9606-763e" name="Blessed Icon" hidden="false" collective="false" import="true" targetId="66fb-50c1-2e0a-d4e0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce77-d278-6eb6-14ef" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a6f1-77ba-42bf-4424" name="Troop Flag" hidden="false" collective="false" import="true" targetId="2238-3812-18b4-96de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="467d-1fbd-f895-02b3" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed17-235e-2b85-8729" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2b90-7557-74ab-8220" name="Medi Kit" hidden="false" collective="false" import="true" targetId="2307-e990-321a-99d0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e262-41c3-07b8-bb8a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6567-7bf9-2a53-a15c" name="Field Shrine" hidden="false" collective="false" import="true" targetId="6d30-2d8b-b07b-9e80" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6390-8a80-f7d9-fe6e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="76f2-2650-db9b-407a" name="Musical Instrument" hidden="false" collective="false" import="true" targetId="fdbf-50d1-fc05-e612" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f7-0fa6-330e-dff2" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b7-4cbd-ba67-a5bd" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9644-22e6-6118-0a99" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1d82-6bbd-a2f8-aca0" name="Incendiary Ammunition" hidden="false" collective="false" import="true" targetId="9015-8aa2-245a-f68d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cbc-bccd-c88c-2334" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="823b-1c33-03da-da22" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="800c-b1b5-a2f3-6126" name="Martyrdom Pills" hidden="false" collective="false" import="true" targetId="b315-41e3-94ab-aaa7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c1c-e84f-9264-ffea" type="max"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bd7-da92-67d7-d134" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="075f-659b-ef6e-9600" name="Mountaineer Kit" hidden="false" collective="false" import="true" targetId="9cb6-0f87-9427-74db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0300-61f4-f4fa-e234" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="20b9-8a1c-72af-e4ca" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="64f6-03ae-33a1-912a" name="Sacrificial Lamb" hidden="true" collective="false" import="true" targetId="9655-cdde-595b-33d4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4d5-96bb-df4d-03eb" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e5-75f9-048c-e5a3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ae2c-b220-ce32-709f" name="Grenades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f6-65ba-fe8c-6fe7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="50a8-f657-c88c-aef3" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="618b-2784-109b-723c" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ed7-eabc-cf52-ea32" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="1f72-7b21-fa25-4a12" name="Incendiary Grenades" hidden="false" collective="false" import="true" targetId="f719-4f60-ea2b-e0e2" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ed7-eabc-cf52-ea32" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="bbda-9ae8-caa8-ba3b" name="War Cross" hidden="false" collective="false" import="true" targetId="692f-c01f-85a8-d2e6" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5bbc-956d-81a9-bf4d" name="Headgear" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7658-d011-e8cf-fbfc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f69f-fdd8-f4c7-2b0e" name="Iron Capirote" hidden="false" collective="false" import="true" targetId="e78a-dae2-4698-732e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="7.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a067-35c0-830f-1c52" name="Shields" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9518-91b5-7db1-1ffd" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="da9d-d67e-640c-ee73" name="Trench Shield" hidden="false" collective="false" import="true" targetId="9f89-8bb9-b7fd-094a" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e3a9-ed1d-aeb5-6420" name="Holy Icon Shield" hidden="true" collective="false" import="true" targetId="94ee-fa29-01b1-ddf3" type="selectionEntry">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89f7-0fa6-330e-dff2" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="e3dd-6bfc-c037-3dcc" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="051b-a11e-6a08-7276" value="20.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d53c-f3d4-b6cf-06ee" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="83a1-8f17-2633-afad" name="Anchorite Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="292e-bc59-ebd7-d8ae">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c3-a9d2-6dae-e75c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9df-b472-0e06-dd4c" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="73bb-348a-db5a-9e2d" name="Heavy Flamethrower" hidden="true" collective="false" import="true" targetId="53f2-edbf-3664-72b6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="45.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f76d-6878-c2d6-26c1" name="Anti-Materiel Rifle" hidden="true" collective="false" import="true" targetId="d13e-3b24-b4aa-bef6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4e74-9ac9-c5ec-56f8" name="Punt Gun" hidden="false" collective="false" import="true" targetId="502e-fa1a-9791-0175" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="900b-8576-9b73-c658" name="Gas Censer" hidden="false" collective="false" import="true" targetId="bb3e-046c-ac5b-9171" type="selectionEntry"/>
+        <entryLink id="e1a6-aec1-3026-d9b9" name="Trench Mortar" hidden="false" collective="false" import="true" targetId="eae3-dc3d-fb0d-1227" type="selectionEntry"/>
+        <entryLink id="8937-cd6e-c8fe-613f" name="Autocannon" hidden="false" collective="false" import="true" targetId="a3e3-9bac-d779-a888" type="selectionEntry"/>
+        <entryLink id="292e-bc59-ebd7-d8ae" name="Catherine Wheel" hidden="false" collective="false" import="true" targetId="fe78-e763-0701-0ccf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fb82-f999-5447-0fe3" name="Anchorite Equipment" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aa84-c1cc-caa1-6167" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dc4-c4fe-7193-98f0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c5a1-be95-e6da-db24" name="Wrathful Cherub Face" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5b-76e5-3c12-da03" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="fa2d-fc40-708f-769c" name="Wrathful Cherub Face" hidden="false">
+              <description>If the model fighting the Shrine Anchorite in Melee is affected by the Keyword FEAR, one of the ACTIONS it has to take when it is activated must be Retreat from Melee Combat.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2c5a-a019-26f7-a046" name="Holy Diesel Engine" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d4-08bf-4e04-95cc" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="006f-114f-b84f-16f8" name="Holy Diesel Engine" hidden="false">
+              <description>The Anchorite can add +2 DICE to its Dash ACTIONS, but it automatically gains one BLOOD MARKER if it succeeds in a Dash ACTION.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4425-0eb9-5c56-cb90" name="Gas Filters" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d8c-7bb8-259a-0f2a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="aa5c-097a-b4e9-18d0" name="Gas Filters" hidden="false">
+              <description>This upgrade counts as a gas mask.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7726-465c-8362-6973" name="Sacred Geometry" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7963-18b4-4528-0905" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5110-6323-73e0-8968" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="20db-92a7-b52c-b517" name="Sacred Geometry" hidden="false">
+              <description>This upgrade increases its Ranged Characteristic to +1 DICE.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b1c1-454b-b68e-66a3" name="Grand Anchorite" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb7-8a65-a8d1-8184" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c55-8c98-0a44-c63b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e69f-f7d8-11a7-7b24" name="Grand Anchorite" hidden="false">
+              <description>The Anchorite Shrine can always move out of Melee combat with any enemy without the enemy having a chance to attack it. Additionally, it can move out of Melee combat as part of a Standard Move, Charge or Dash.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f7f-843a-21fd-fb79" name="Piston Legs" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="359a-db85-f11a-dc1d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d124-47ce-e7ec-d514" name="Piston Legs" hidden="false">
+              <description>Once during its Activation, the Anchorite Shrine may make an extra Melee Attack ACTION against a Downed enemy model on a 32mm or smaller base. Resolve the attack as if the Anchorite Shrine was armed with a Trench Club.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2599-3746-a7a2-885f" name="Hallowed Anchorite" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ec-901c-56c0-16b6" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4db-cf56-c645-5090" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c10b-bc9c-d0e6-2fba" name="Hallowed Anchorite" hidden="false">
+              <description>This Anchorite can be promoted to ELITE during campaigns.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="2229-127f-a536-48f8" name="TC_Common_Data" targetId="8a68-77dc-eb5e-7e97" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

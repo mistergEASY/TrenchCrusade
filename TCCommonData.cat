@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8a68-77dc-eb5e-7e97" name="TCCommonData" revision="12" battleScribeVersion="2.03" library="true" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="6e94-d899-dc2e-61c2" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f581-b121-c72c-92d2" name="Pistol" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ad0b-14df-38d3-e25b" name="Pistol" hidden="false">
+          <description>A model armed with a pistol can use it in melee as well as ranged combat (using Ranged Characteristic), including as an off-hand weapon to execute an additional melee attack.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8edd-2805-098d-2dcf" name="1-Handed Ranged Weapons" hidden="false" targetId="f58e-c565-7550-5229" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="728b-b2f4-5945-ef57" name="Automatic Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c5a1-ea68-a7b0-2f04" name="Automatic Pistol" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1D to injury, 2 attacks</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bdfe-2355-b237-3591" name="Automatic Pistol" hidden="false">
+          <description>A model armed with an automatic pistol can use it in melee as well as ranged combat (using Ranged Characteristic), including as an off-hand weapon to execute an additional melee attack. You can make two Attack ACTIONS with the automatic pistol instead of one if used as a ranged weapon. They can be against the same target or two different ones.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d5b4-bd75-223c-d3ba" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="ca2e-f642-b408-6227" name="1-Handed Ranged Weapons" hidden="false" targetId="f58e-c565-7550-5229" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61e0-32e9-1db7-a096" name="Automatic Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7516-686a-d295-55bd" name="Automatic Rifle" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">24&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">2 Attacks</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="048b-9669-7dfb-511f" name="Automatic Rifle" hidden="false">
+          <description>A model armed with an Automatic Rifle can make two attack ACTIONS instead of one. Both attacks must be against the same target.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bd15-2531-227e-70a1" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="31d6-cdd8-7608-4a13" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9742-157c-7189-6081" name="Bolt Action Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e042-bf39-a36c-4ddc" name="Bolt Action Rifle" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">24&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9389-f974-39fc-da2a" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72c7-bd5c-d0f6-cdab" name="Semi-Automatic Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9cc7-5642-86a4-9576" name="Semi-Automatic Rifle" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">24&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d8df-bb57-8b06-5517" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="5bc2-01c2-50ec-04fc" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2d6-e614-0e5f-1881" name="Jezzail" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1610-6ec9-24f4-39ac" name="Jezzail" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">18&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1944-90cf-bf7a-24b2" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec3d-b176-af2b-0f7a" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a78c-73e3-8536-6bdc" name="Shotgun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c7db-22c9-8b2a-fc3b" name="Shotgun" hidden="false">
+          <description>Owing to its high accuracy, add +1 DICE to all rolls to hit and ignore the penalty to hit rolls when attacking at long range. However, injuries are rolled with -1 DICE at long range due to the low penetration power.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2241-c38f-8ece-e4a6" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baa8-281b-b78f-6b16" name="Automatic Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2614-ad1b-3e2b-7fd5" name="Automatic Shotgun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7610-8628-7a40-6b15" name="Automatic Shotgun" hidden="false">
+          <description>Owing to its high accuracy, add +1 DICE to all rolls to hit and ignore the penalty to hit rolls when attacking at long range. However, injuries are rolled with -1 DICE at long range due to the low penetration power.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0c70-0fda-55dd-70fa" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="38e8-d282-67d2-4a22" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ac8-e03e-399e-7e36" name="Heavy Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9729-9850-a7fb-3872" name="Heavy Shotgun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit, +2 Dice to Injuries at Short Range</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="114f-56ed-95df-d9b1" name="Heavy Shotgun" hidden="false">
+          <description>This weapon rolls attacks with +1 DICE and rolls injuries at Short Range with +2 DICE.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="256d-6cc7-9eb5-0260" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="1ee4-6669-3d4e-8a47" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c801-0ec5-7252-65dd" name="Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3d2c-ab5d-87b7-53ab" name="Submachine Gun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">16&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">2 Attacks</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="239b-f649-60ec-7467" name="Submachine Gun" hidden="false">
+          <description>Can make two attack ACTIONS instead of one. These can be against a single target or two separate ones.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="288e-403d-91a8-d5e4" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="a3ea-8a1f-0d50-4c50" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bed-906c-d0dc-198d" name="Musket" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="17bc-3c69-baae-889f" name="Musket" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">18&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3077-13e0-b579-420c" name="Musket" hidden="false">
+          <description>Due to its low power, add -1 DICE for all Injury Chart rolls with the musket.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4aca-6738-1fe8-67aa" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a42-3a3b-4a86-86fd" name="Silenced Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d683-66b3-2342-2e82" name="Silenced Pistol" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice  to Hit in Cover</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6242-3609-fee4-a47c" name="Silenced Pistol" hidden="false">
+          <description>A model armed with a silenced pistol can use it in melee as well as ranged combat (using Ranged Characteristic), including as an off-hand weapon to execute an additional melee attack. Add +1 DICE to hit rolls if shot from behind any terrain obstacles.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="aecc-5387-7aba-e901" name="1-Handed Ranged Weapons" hidden="false" targetId="f58e-c565-7550-5229" primary="false"/>
+        <categoryLink id="ca83-36e6-b96c-654d" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7513-0b9d-f8c6-ccb8" name="Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="94a0-6f61-6d54-66af" name="Sniper Rifle" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">48&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Risky Action, Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0b29-5154-8e6c-cc00" name="Sniper Rifle" hidden="false">
+          <description>This weapon rolls attacks with +1 DICE. On a Critical attack roll, this weapon ignores armour. If this model is equipped with a Scope, this weapon ignores the penalty for Long Range.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6d73-72fe-268a-712f" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="23b0-c495-9823-7515" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+        <categoryLink id="a14c-e781-f948-9ddd" name="Risky Action" hidden="false" targetId="9f2c-61e5-a38d-1bbc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="927d-e781-fee2-e005" name="Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d0cc-e584-da33-d66a" name="Grenade" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">Grenade</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault, Shrapnel, Blast 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4ce0-6450-68da-1b60" name="Grenade" hidden="false">
+          <description>Grenades have BLAST 2” – all models within 2” of a model are hit but models other than the original target roll Injuries with -1 DICE.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="72f5-96db-be0b-65dc" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="7516-58df-e782-5c63" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+        <categoryLink id="5ee9-aff5-6a64-f1b3" name="Grenade" hidden="false" targetId="a497-6e8c-3c0b-00ef" primary="false"/>
+        <categoryLink id="c5f8-41c9-dc9d-a842" name="Shrapnel" hidden="false" targetId="611d-3b22-92ee-44f0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f719-4f60-ea2b-e0e2" name="Incendiary Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="239a-dfb6-45da-f96e" name="Incendiary Grenades" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">Grenade</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault, Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4d2f-02e5-a96c-533f" name="Incendiary Grenades" hidden="false">
+          <description>Incendiary Grenades cause +1 BLOOD MARKER upon a hit due their FIRE Keyword. The incendiary grenades ignore armour on a Critical Hit (12+ to hit).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c296-1070-1207-b269" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="36a1-f5a7-b006-b89d" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+        <categoryLink id="f6f8-4180-79d6-5560" name="Grenade" hidden="false" targetId="a497-6e8c-3c0b-00ef" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b31-a833-d8ab-d744" name="Gas Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ee3c-be82-63c3-313f" name="Gas Grenades" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">Grenade</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1 Dice To Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault, Gas, Blast 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4713-0a6b-0c26-318b" name="Gas Grenades" hidden="false">
+          <description>Gas Grenades ignore all penalties for cover and armour but roll injuries with -1 DICE. They have BLAST 3” – they hit all models within 3” of a target they hit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0f5a-7109-1fa2-fe5b" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="7108-e2ec-c167-0857" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+        <categoryLink id="4123-7502-6a77-609b" name="Gas" hidden="false" targetId="90c5-6f22-b2d8-eb40" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1dd-d11b-caa4-35c7" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d1df-2a40-220b-8251" name="Grenade Launcher" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">36&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">Ignore Cover</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Shrapnel, Heavy, Blast 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ddd9-28d0-481e-8ab8" name="Grenade Launcher" hidden="false">
+          <description>Ignores all penalties for cover. This weapon has a BLAST radius of 3” – all models within this range are hit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ee96-786c-2cbe-93c7" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="1cf3-ec92-7e10-a07d" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+        <categoryLink id="20f8-67e8-2152-a268" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="d677-2be4-daca-ca4e" name="Shrapnel" hidden="false" targetId="611d-3b22-92ee-44f0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87ff-d542-a0b0-7e95" name="Satchel Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2255-033d-5760-56cb" name="Satchel Charge" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">Grenade</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">6&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Injuries, ignores armour</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Blast 3&quot;, Consumable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8ca7-8755-bc39-8f30" name="Satchel Charge" hidden="false">
+          <description>You can aim the Satchel Charge at either a 1mm x 1mm point on the ground or an enemy model within range. Next, take a Ranged Attack ACTION. If the roll fails (i.e. you roll 6 or less), the bomb lands 1” away from its intended location, multiplied by the number representing the degree of failure (for example, if you rolled 5, the bombard shot lands 2” away, as 7-5=2). The direction is decided by your opponent. A Satchel Charge adds +1 DICE to injury rolls. Additionally, if the Satchel Charge lands directly on top of a model, it ignores that model’s armour.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1505-6de4-047e-0057" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+        <categoryLink id="350f-1216-9177-b253" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+        <categoryLink id="04f9-c676-e5ec-70e0" name="Grenade" hidden="false" targetId="a497-6e8c-3c0b-00ef" primary="false"/>
+        <categoryLink id="f03e-9e49-a035-e5bf" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="618b-2784-109b-723c" name="Molotov Cocktail" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9ace-90e5-478d-deed" name="Molotov Cocktail" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">Grenade</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">6&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1 Dice to INjuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault, Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="08a1-4aed-5c05-1771" name="Molotov Cocktail" hidden="false">
+          <description>-1 DICE on injury rolls. Molotov Cocktails ignore all penalties for terrain/cover, as well as ignoring all armour on a Critical Attack roll.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f38e-1a36-9d60-5c74" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="7c86-b837-821d-19ef" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="a064-59e5-e545-43c0" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+        <categoryLink id="e5f8-1340-b326-183d" name="Grenade" hidden="false" targetId="a497-6e8c-3c0b-00ef" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d13e-3b24-b4aa-bef6" name="Anti-Materiel Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0d82-a444-6fb2-67f8" name="Anti-Materiel Rifle" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ramged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">36&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="80d5-d194-8638-36b4" name="Anti-Materiel Rifle" hidden="false">
+          <description>Ignores armour. Add +1 DICE when rolling on the Injury Chart.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1b42-fe5a-5b14-0009" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="c4d1-16dd-daa1-78cb" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+        <categoryLink id="8412-0d18-3f23-b2a7" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5be9-bd2b-a2e3-86c4" name="Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b9b2-fc0c-166c-5d31" name="Machine Gun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">36&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">3 Attacks</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4b1a-b213-832e-0752" name="Machine Gun" hidden="false">
+          <description>Machine Guns can make three Attack Actions instead of one. They can target separate models with each attack, as long as all targets are within 6” of each other. After taking all three attacks the Activation of the model is over regardless of any remaining ACTIONS the model might have.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8b09-c2e4-5bdc-ce0b" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="4410-36e6-becc-46a8" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34bd-2be2-6f0f-3ee1" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="63f1-2f98-965a-9f40" name="Flamethrower" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1 Dice to Injuries, ignores Armour</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8692-e307-83bc-c019" name="Flamethrower" hidden="false">
+          <description>A Flamethrower hits one model within range automatically with its Attack ACTION. Ignores Armour. Injuries caused by a Flamethrower are rolled with an additional -1 DICE. It also has the Keyword FIRE, so it causes an additional +1 BLOOD MARKER on enemies it hits, even if no other damage is caused.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="67c2-d51e-fa34-a5a2" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="a80a-de13-745a-e8fa" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53f2-edbf-3664-72b6" name="Heavy Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2327-b9fb-8942-e2c6" name="Heavy Flamethrower" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">10&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">ignores armour</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dc07-9518-ffb9-61aa" name="Heavy Flamethrower" hidden="false">
+          <description>Hits up to two models within range automatically with an Attack Action as long as they are within 6” of each other and within the Heavy Flamethrower range. Ignores armour. It also has the Keyword FIRE, so it causes an additional +1 BLOOD MARKER on enemies it hits, even if no other damage is caused.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d833-d994-2a3f-1664" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="a5fd-54d0-44e8-3742" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+        <categoryLink id="3f23-82c2-a92e-995b" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98ed-4714-6800-5772" name="Trench Knife/Dagger" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c8e5-695e-411e-1e2a" name="Trench Knife/Dagger" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="77a3-3e5c-df97-9bb6" name="Trench Knife/Dagger" hidden="false">
+          <description>Add -1 DICE every time you use a knife to see if the attack hits.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ba34-3a29-c6a6-6f55" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa52-3801-52a2-a5c2" name="Trench Club" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ffa0-7916-0665-fa79" name="Trench Club" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ee84-4031-f590-f231" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c090-d971-10aa-ef8a" name="Sword/Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c681-d207-0b34-5f43" name="Sword/Axe" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c007-2d4b-da24-2c6b" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+        <categoryLink id="dbd7-b393-2123-06d1" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9048-e980-8a9e-6d71" name="Bayonet" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="954d-957a-5b46-6f89" name="Bayonet" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Cumbersome</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="eb25-0016-6fd7-f0d6" name="Bayonet" hidden="false">
+          <description>Bayonets can only be attached to weapons fitted with a ‘Bayonet lug’ (indicated in each Warband’s Armoury). They do not count towards the maximum melee weapons a model can carry.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7038-a766-b6f6-4d49" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="54e9-a96e-3af6-0aed" name="Cumbersome" hidden="false" targetId="d213-ac2a-4329-eaed" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9012-8404-d6a2-8728" name="Sacrificial Knife" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3cb2-0007-f54e-75d7" name="Sacrificial Knife" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+2 to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Risky Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0a16-b967-7819-720f" name="Sacrificial Knife" hidden="false">
+          <description>The Sacrificial Knife adds +2 to all rolls on the Injury Chart. For example, a roll of 7 on the Injury Chart becomes 9 when using the Sacrificial Knife.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a643-1840-fa0d-67b6" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+        <categoryLink id="5769-14ea-38a6-7e62" name="Risky Action" hidden="false" targetId="9f2c-61e5-a38d-1bbc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3047-35f7-8dc8-3f90" name="Blasphemous Staff" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2021-cc52-ed55-145c" name="Blasphemous Staff" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Fire, Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d6ba-09a5-9d9b-5a31" name="Blasphemous Staff" hidden="false">
+          <description>Gives +1 DICE bonus to any other ACTION the model takes apart from Dash, Ranged Attack or Melee Attack.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="29bc-081a-7dc9-bc23" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+        <categoryLink id="8a5f-20e8-4175-338a" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+        <categoryLink id="2d0b-c781-2b3a-9776" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41a9-a845-3e79-f8ac" name="Hellblade" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="089e-f006-e006-dc99" name="Hellblade" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4e30-edee-ed14-be80" name="Hellblade" hidden="false">
+          <description>The Hellblade has +1 DICE when rolling for injuries. It also has the Keyword FIRE, so it causes an additional +1 BLOOD MARKER on enemies it hits.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fd9c-0019-0b21-0ff2" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="e49d-fbf2-0ca9-0b74" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6656-4c66-0174-42af" name="Tartarus Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b13d-728e-8123-914a" name="Tartarus Claws" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8edd-c377-23a1-f6bd" name="Tartarus Claws" hidden="false">
+          <description>Tartarus Claws always come as a pair and do not allow the use of any other melee weapons. You can make two Attack ACTIONS with the Claws without the usual -1 DICE for the second attack. If the opponent is taken Down or Out of Action with the Claws you may immediately move the model up to 3”. If the move takes you into contact with another enemy model, this counts as a charge and you can make a second Melee Attack ACTION with the claws. You can only do this follow-up move once per Activation. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8c98-e5d2-d6df-ebe2" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96d3-d93b-45ca-3b5a" name="Anti-Tank Hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b9ff-266a-80b2-209f" name="Anti-Tank Hammer" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Risky Action, Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="438e-8b36-680a-46a1" name="Anti-Tank Hammer" hidden="false">
+          <description>Ignores armour modifiers and rolls injuries with +1 DICE. If it hits the enemy, the wielder suffers +1 BLOOD MARKER as well.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4fcb-9654-a183-2a6d" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="071d-9a05-9237-4211" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+        <categoryLink id="c6e0-4b0a-1fab-c28f" name="Risky Action" hidden="false" targetId="9f2c-61e5-a38d-1bbc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70db-cc19-44ed-a481" name="Trench Polearm" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b0ed-6011-b092-dce8" name="Trench Polearm" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-1 Dice to Hit for Chargers</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Cumbersome</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0645-1910-655f-5398" name="Trench Polearm" hidden="false">
+          <description>Polearms take two hands to use. Melee attacks made against this model are made with -1 DICE if the attacking model Charged this turn.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5d40-b4dc-29e2-cf0f" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="0510-a98a-5ae1-7d00" name="Cumbersome" hidden="false" targetId="d213-ac2a-4329-eaed" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b3b-62b9-627b-a89d" name="Scourge/Battle Whip/Flail" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3c72-a36f-ec0c-2f78" name="Scourge/Battle Whip/Flail" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6d00-d3e2-0dff-347d" name="Scourge/Battle Whip/Flail" hidden="false">
+          <description>Add +1 DICE to their Hit Rolls. This bonus does not apply if used as an off-hand weapon.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6593-65e3-632f-ee55" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="39c3-55f3-ab56-d2ad" name="2-Handed Hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5b08-a468-4def-b567" name="2-Handed Hammer" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2f27-2497-a8ee-a902" name="2-Handed Hammer" hidden="false">
+          <description>When using this weapon add +1 to all injury rolls (example: a roll of 7 on 2D6 becomes 8).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0ce0-9ff6-aa96-ecfa" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="dd9e-6cc1-68a2-0e3c" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f9ec-b98f-9f38-ffb4" name="Great Sword/Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="edd3-f2fd-12ff-4f64" name="Great Sword/Axe" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1fcf-8ce8-6631-e491" name="Great Sword/Axe" hidden="false">
+          <description>Rolls all injuries with +1 DICE.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d6fa-9020-ef61-c2aa" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="0016-c09c-6aec-dbbc" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="e285-8377-ef65-f14a" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6ed-39f0-a7b6-5663" name="Misericordia" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1cea-91b1-7da3-dcd1" name="Misericordia" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Melee</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">ignores armour</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f08d-9425-0f01-3cdd" name="Misericordia" hidden="false">
+          <description>Ignores the armour of opponents that are Down.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c546-2eac-ce00-34c7" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f89-8bb9-b7fd-094a" name="Trench Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="6ad4-5f4e-aec5-25ab" name="Trench Shield" hidden="false">
+          <description>Always takes one hand to use in both melee and in ranged combat, and cannot be switched out. Grants -1 to all injury rolls against the model. This bonus stacks with any armour the model wears, unless otherwise indicated. For the purposes of wielding a 2-handed weapon with the ‘Shield Combo’ indicator, the Trench Shield does not take a hand to wield but still functions as normal.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5619-0790-8655-eee7" name="Shield" hidden="false" targetId="9bfc-9b63-eb4c-7934" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62c3-43d1-3d44-1b49" name="Standard Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="ca38-e484-c64c-7354" name="Standard Armour" hidden="false">
+          <description>-1 to all Injury Chart rolls against the model. Can be combined with any shield.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8332-d7a9-4ad5-c721" name="Armour" hidden="false" targetId="86f6-6389-82d3-8301" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6d3-4ed3-9af8-b03d" name="Reinforced Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="a371-7d65-54a8-2e48" name="Reinforced Armour" hidden="false">
+          <description>Grants a -2 modifier to all injury rolls against the model wearing this armour.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="55cb-f3ed-9aaf-c409" name="Armour" hidden="false" targetId="86f6-6389-82d3-8301" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c239-5033-bfdb-f2fa" name="Machine Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b2e5-273d-bcb6-79ff" name="Machine Armour" hidden="false" targetId="cc7f-e7ad-6f1e-1a47" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="951d-d438-eade-f058" name="Armour" hidden="false" targetId="86f6-6389-82d3-8301" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94ee-fa29-01b1-ddf3" name="Holy Icon Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d8b8-5577-69a8-a251" name="Holy Icon Shield" hidden="false">
+          <description>Takes one hand to use in both melee and in ranged combat. Grants -1 to all injury rolls against the model. This shield is effective even against weapons and attacks that would normally ignore armour.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="88da-1b4a-4323-dd16" name="Shield" hidden="false" targetId="9bfc-9b63-eb4c-7934" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d0a-4ad7-c852-ed5e" name="Holy Icon Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="5d9b-b0fc-9ab3-cea1" name="Holy Icon Armour" hidden="false">
+          <description>Grants -1 to all Injury Chart rolls against the model wearing this armour. This armour is effective even against weapons and attacks that would normally ignore armour.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="872d-3d7f-79fc-787b" name="Armour" hidden="false" targetId="86f6-6389-82d3-8301" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e0a-8eae-9538-43d8" name="Combat Helmet" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1a32-e013-dfe4-27f0" name="Combat Helmet" hidden="false">
+          <description>Ignores additional BLOOD MARKERS caused by the Keyword SHRAPNEL.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ebb2-f710-8f8b-8b09" name="Headgear" hidden="false" targetId="13d1-310d-a8e6-2093" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e78a-dae2-4698-732e" name="Iron Capirote" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="69d8-9586-f841-8032" name="Iron Capirote" hidden="false">
+          <description>Negates the additional BLOOD MARKERS from weapons with SHRAPNEL Keyword. Makes the model immune to the effects of FEAR.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8bd3-86d9-b53f-a175" name="Headgear" hidden="false" targetId="13d1-310d-a8e6-2093" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2307-e990-321a-99d0" name="Medi Kit" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8b80-621b-426c-0dc7" name="Medi-Kit" hidden="false">
+          <description>Models with a Medi-kit can take a RISKY ACTION to remove one BLOOD MARKER from any one friendly model (including themselves) within 1” range or allow one friendly model (including themselves) who is Down to regain their footing.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2126-7126-cf2a-9c42" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01ec-8286-4ec2-28b5" name="Gas Mask" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="4e6b-b406-289a-1417" name="Gas Mask" hidden="false">
+          <description>Negates the extra BLOOD MARKER from attacks with the keyword GAS. Any such attacks suffer -1 DICE penalty to all injury rolls.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e02b-1297-fa2f-a6ff" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="39ed-9ea2-a692-176b" name="Holy Relic" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="5eda-afca-f0a1-1cea" name="Holy Relic" hidden="false">
+          <description>This model starts each game with +1 BLESSING MARKER.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1980-7142-8a98-f5e5" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce05-4bac-6050-f0d7" name="Armour-Piercing Bullets" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="326a-e1b2-3a27-8fdf" name="Armour-Piercing Bullets" hidden="false">
+          <description>Before the battle begins, a model may use this item to grant a rifle or pistol weapon that they are equipped with the following ability: Reduce the injury penalty from Armour and Shields by 1 until the end of the battle.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f182-8917-9edb-d2a1" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+        <categoryLink id="1246-b2e8-ff6c-5ce2" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6a2-2b58-8cff-6d4f" name="Dum-Dum Bullets" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="ddac-6f01-4c22-c6ab" name="Dum-Dum Bullets" hidden="false">
+          <description>Before the battle begins, a model may use this item to grant a rifle or pistol weapon that they are equipped 
+with the CRITICAL keyword until the end of the battle.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="febd-f5a8-c8f7-0b9c" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+        <categoryLink id="d88a-104c-c587-36d2" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+        <categoryLink id="716a-d4e2-3a86-8c11" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9015-8aa2-245a-f68d" name="Incendiary Ammunition" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b24c-29a3-9071-325d" name="Incendiary Ammunition" hidden="false">
+          <description>Before the battle begins, a model may use this item to grant a rifle or pistol weapon that they are equipped with the FIRE keyword until the end of the battle.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="cd34-7c87-61a5-4943" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+        <categoryLink id="1250-0cb8-3281-233e" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+        <categoryLink id="429d-b986-ca97-0a08" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="213e-633c-4ca9-1435" name="Tracer Bullets" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="3a1e-445d-90e8-3321" name="Tracer Bullets" hidden="false">
+          <description>Before the battle begins, a model may use this item to grant a rifle or pistol weapon that they are equipped 
+with +1D to hit with ranged attacks until the end of the battle.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="225a-dba1-5893-84bf" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+        <categoryLink id="f14f-b511-8314-6587" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2eb2-c9d7-2c99-5257" name="Sniper Scope" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="3f52-e05b-4342-fec8" name="Sniper Scope" hidden="false">
+          <description>Negates the penalty for Long Range if the model has not moved during this Activation. Only usable with rifles (i.e. weapons which have the Keyword rifle in their name).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0999-edad-454f-50a7" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc56-29ec-e0e7-693c" name="Shovel" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="ad2f-a9ac-22c0-6923" name="Shovel" hidden="false">
+          <description>A model equipped with a shovel always starts the game in cover if deployed on ground level, even if placed in open terrain. As soon as the model moves, it is no longer in over. A model that is covered in this way retains the benefit of Cover even if the attacking model has an unobstructed view of it. If a model equipped with a shovel has two hands free, it can use it in Melee Combat as if it were a Trench Club.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a324-f759-a94f-ff15" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2238-3812-18b4-96de" name="Troop Flag" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="0bad-7833-9aa2-62af" name="Troop Flag" hidden="false">
+          <description>Grants +1 DICE for all Morale tests as long as the model with the flag is not Down or Out of Action. Requires one hand to use.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f547-99c4-9e5f-ba36" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b315-41e3-94ab-aaa7" name="Martyrdom Pills" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="9388-09f4-63db-7c2f" name="Martyrdom Pills" hidden="false">
+          <description>Before the battle begins, a model may use this item. If it does, injuries rolled against it suffer -1 DICE until the end of the battle and the model is not affected by FEAR.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6e82-d4e0-2cff-b21d" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+        <categoryLink id="40ab-2932-1651-204a" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9290-3bb5-ccbe-32b2" name="Unholy Trinket" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="e654-0bc4-5573-2e6a" name="Unholy Trinket" hidden="false">
+          <description>When a model equipped with an Unholy Trinket fails a RISKY ACTION, that model may use this item. If it does, its Activation is not ended.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e5f2-b1e2-c52e-a2f3" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+        <categoryLink id="02e0-486b-7b24-85a8" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de80-7560-4546-24cc" name="Unholy Relic" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="2493-f437-0df1-3065" name="Unholy Relic" hidden="false">
+          <description>A model equipped with an Unholy relic radiates a truly malignant aura and causes FEAR.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b9fb-3e72-4bfe-423d" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66fb-50c1-2e0a-d4e0" name="Blessed Icon" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="01c2-6130-83de-5427" name="Blessed Icon" hidden="false">
+          <description>When a model equipped with a Blessed Icon fails a RISKY ACTION, that model may use this item. If it does, its Activation is not ended. Can be used once per battle.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0a98-56d4-cb5c-e2af" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c3c-7121-13a9-259e" name="Infernal Brand Mark" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="6fdb-8add-1db4-07bb" name="Infernal Brand Mark" hidden="false">
+          <description>Negates the extra BLOOD MARKER from attacks with the keyword FIRE. Any such attacks suffer -1 DICE penalty to all injury rolls.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2c7c-1a90-c1a7-ecae" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d30-2d8b-b07b-9e80" name="Field Shrine" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="79bc-5ba6-c494-df4b" name="Field Shrine" hidden="false">
+          <description>Can be placed on the battlefield in your deployment zone. Acts as three models for Morale Tests. It has a base size of 40mm. Can be destroyed if any type of attack hits it.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="73d8-f732-9e48-850d" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e723-3154-2156-9ae0" name="Hellbound Soul Contract" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8946-1113-9aeb-6788" name="Hellbound Soul Contract" hidden="false" targetId="8525-8583-0336-69d6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a92f-e680-be21-d2fd" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83b8-55bf-191b-42fe" name="Binoculars" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="76dd-ee41-7d53-cbee" name="Binoculars" hidden="false">
+          <description>Any enemy Infiltrator cannot be placed closer than 16” of this model.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a7ce-5775-f4e8-b526" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdbf-50d1-fc05-e612" name="Musical Instrument" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="bd86-3727-67dc-3104" name="Musical Instrument" hidden="false">
+          <description>Any friendly models within 4” of the musician who is not Down can add +1 DICE to their Dash ACTIONS. Musical Instruments take one hand to use at all times as if it were a weapon.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="726b-8445-8f00-2335" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cb6-0f87-9427-74db" name="Mountaineer Kit" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="bf10-8d92-bfa3-a189" name="Mountaineer Kit" hidden="false">
+          <description>A model with this kit adds +1 DICE to any Climbing ACTION rolls.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9c30-91ec-3d1b-ea01" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b38-641e-0c87-6fb5" name="Tormentor Chain" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5420-9bb7-d351-eb0d" name="Tormentor Chain" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed Ranged</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">10&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">Special</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Shrapnel</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2011-bc4f-af6f-fea8" name="Tormentor Chain" hidden="false">
+          <description>The tormentor chain suffers no penalties for range or for Cover and inflicts no damage except for the BLOOD MARKER it causes due to SHRAPNEL. If the wielder hits a target with this weapon, the target is moved in a straight line directly towards the wielder, ending in the legal space that puts it closest to the wielder. This typically ends with the target and the wielder in base contact and therefore in melee combat. This movement can place the target in melee combat with multiple enemy models. Additionally, no enemy models may retreat when in melee combat with the wielder.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3b8a-1fb0-ac17-1176" name="1-Handed Ranged Weapons" hidden="false" targetId="f58e-c565-7550-5229" primary="false"/>
+        <categoryLink id="64ed-7370-8c3f-f665" name="Shrapnel" hidden="false" targetId="611d-3b22-92ee-44f0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98f0-8bc1-9d6c-79ae" name="Cloak of Alamut" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="a481-8cfb-8415-b2fa" name="Cloak of Alamut" hidden="false">
+          <description>All ranged attacks against a model that is in cover suffer -2 DICE penalty instead of -1 DICE. All the normal rules for cover apply otherwise.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bc67-cf28-3ce4-baa0" name="New CategoryLink" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af47-1b0a-fa7f-8040" name="Wind Amulet" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d479-2522-aa5d-500b" name="Wind Amulet" hidden="false">
+          <description>Once per battle, you may add +3” to the Movement characteristic of this model once during the activation. Declare this when the model is Activated.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6a4d-75d5-b64a-e9ee" name="New CategoryLink" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d00-e82a-b2e1-7996" name="Halberd Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e3c6-356d-c5e8-598a" name="Halberd Gun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee/24&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault, Cumbersome</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4422-74a7-5019-ef0b" name="Halberd Gun" hidden="false">
+          <description>Enemies charging a model equipped with a Halberd-gun add -1 DICE in melee combat when rolling to hit. This only applies when a model attacks after a charge, not on subsequent rounds of melee.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ea34-69c7-0952-84b2" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="4752-3347-4f48-ab22" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="282c-cd8f-7595-99df" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+        <categoryLink id="6489-7f06-85f6-be86" name="Cumbersome" hidden="false" targetId="d213-ac2a-4329-eaed" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb19-6424-58eb-4b8f" name="Siege Jezzail" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="92a0-62b3-450b-3ac1" name="Siege Jezzail" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">30&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to INjuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c388-0670-1862-644a" name="Siege Jezzail" hidden="false">
+          <description>Roll all injuries with +1 DICE.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="eeae-689f-9da7-1a56" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="f75e-069a-e12c-2102" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="692f-c01f-85a8-d2e6" name="War Cross" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c805-177c-8d2d-0625" name="War Cross" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">-</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">No long-range penalty</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="54d1-87e5-d6a1-35cb" name="War Cross" hidden="false">
+          <description>Does not count as one of the Ranged weapons carried by the model. Cannot be carried with Grenades. Ignores penalties for long range. A model with the weapon will not run out of them.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4293-3416-19f3-913c" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="502e-fa1a-9791-0175" name="Punt Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="53df-f161-9ba6-3d90" name="Punt Gun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">18&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit and Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Shrapnel</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7c6f-2c49-5012-f0da" name="Punt Gun" hidden="false">
+          <description>Owing to its high accuracy and lethal shot, a punt pun adds +1 DICE to all rolls to hit and to injury rolls. Before a model shoots with the punt gun, you can overcharge it with a shot, giving the weapon BLAST 3” radius. If you do this, the shooting ACTION with the Punt Gun always ends the shooter’s Activation and causes one BLOOD MARKER on the shooter. A model cannot make a ranged attack with the punt gun unless it is either STRONG or another friendly model is in base contact with it.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="43f6-b0cc-46c3-6903" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="584c-5ebe-981e-7c05" name="Shrapnel" hidden="false" targetId="611d-3b22-92ee-44f0" primary="false"/>
+        <categoryLink id="6f76-b823-4378-ec18" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9655-cdde-595b-33d4" name="Sacrificial Lamb" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="515a-ac79-5d0b-4906" name="Sacrificial Lamb" hidden="false">
+          <description>Before the battle, this lamb is sacrificed to God’s glory, and the pilgrim then anoints themselves with its blood, averting the wrath of Yahweh while fighting for His cause. The model ignores the first BLOOD MARKER or INFECTION MARKER it suffers in combat.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="37e2-9bd2-be0d-0eb0" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+        <categoryLink id="7e43-df4c-1810-94df" name="Consumable" hidden="false" targetId="db99-a705-c24d-7d35" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56b4-c4cd-fccf-92a6" name="MURAD Bombard" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="76f6-f91b-c001-a013" name="MURAD Bombard" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">36&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Blast 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d360-8c71-89b1-256a" name="MURAD Bombard" hidden="false">
+          <description>Specify a point on the battlefield within 36” (must be in line of sight) that you want to target. Next, take a Ranged Attack ACTION. If the roll fails (i.e. you roll 6 or less), the bomb lands 1” away from its intended location, multiplied by the number representing the degree of failure (for example, if you rolled 5, the bombard shot lands 2” away, as 7-5=2). The direction is decided by your opponent. All models within 3” of the landing 1x1mm landing spot are hit as the bomb explodes – no roll to hit is needed. If the bomb lands directly on top of any model, roll with 3D6 on the Injury Chart and add the dice together to see what happens! Other models hit by the bombard suffer a Down result due the booming shockwave, but do not incur any BLOOD MARKERS or other effects from this attack.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1735-74de-e920-5222" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="6abd-78a2-e581-563a" name="Blast (X)" hidden="false" targetId="3029-504d-daf7-cefc" primary="false"/>
+        <categoryLink id="df36-0bb4-aa04-f817" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ca3-0801-e525-ff71" name="Flame Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f70e-c9f9-980b-6755" name="Flame Cannon" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9c10-8c86-04fe-53c4" name="Flame Cannon" hidden="false">
+          <description>When shot in ranged combat, draw a straight 12” line that is 1mm wide from the Brazen Bull. All models along the path of the line are automatically hit – roll for their injuries immediately. Armour does not protect against the Flame Cannon. Due to the Keyword FIRE, its hits cause an additional +1 BLOOD MARKER. This is applied after rolling for injuries.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="feaf-b77e-eb5f-dcf5" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="d69b-9c9c-0323-b66d" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="d624-ad6e-bc1f-c83e" name="Fire" hidden="false" targetId="a575-ef35-e13e-4904" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a936-9e2e-190a-bcd1" name="Titan Zulfiqar" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a482-e0f2-d74f-1bb1" name="Titan Zulfiqar" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+2 to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy, Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8f39-b9fb-c6ad-9879" name="Titan Zulfiqar" hidden="false">
+          <description>Add +2 to the result of all injuries caused by this weapon (i.e. a roll of 7 on the Injury Chart becomes 9).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9a66-69df-a63a-bc7f" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+        <categoryLink id="4b19-def6-84d4-9480" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+        <categoryLink id="5cf4-b152-5e03-e46d" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="090b-70a6-e515-87f6" name="Assassins Dagger" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5541-a108-47f0-cd62" name="Assassins Dagger" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Critical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5bdb-be08-a754-f2db" name="Assassins Dagger" hidden="false">
+          <description>Adds +1 to injury rolls (i.e. a roll of 7 on the Injury Chart becomes 8). If the Assassin hits an enemy and causes at least one BLOOD MARKER, the Assassin can move away from combat during this Activation. Note that this move does not grant enemies free attacks. Assassins can use both normal and Dash move to do this, though this may not be used for charging.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="dc2a-4fa9-a03f-ef7e" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+        <categoryLink id="ff36-98bc-a7ab-62ae" name="Critical" hidden="false" targetId="5eff-3ffa-84a0-3066" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e61-55c8-3277-3a77" name="Alaybozan" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="99dd-700b-7767-b7ff" name="Alaybozan" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">-</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Shrapnel</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ded7-dec1-958e-8fd5" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="7c63-0b16-385c-4cab" name="Shrapnel" hidden="false" targetId="611d-3b22-92ee-44f0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c60-1823-8595-d537" name="Alchemical Ammunition" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d6a7-ec15-a535-4fd2" name="Alechmical Ammunition" hidden="false">
+          <description>Adds +1 DICE to Ranged Attack rolls on the Action Success Chart. Can only be used with Jezzails, Alaybozan, Halberd-Guns and Siege Jezzails.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da03-4797-082d-e2cc" name="Marid Shovel" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="e5f9-6249-5376-dedc" name="Marid Shovel" hidden="false">
+          <description>The Marid Shovel has the Keyword HEAVY which allows a Brazen Bull to use it. Otherwise it works exactly like a normal shovel.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="837f-261b-4bbb-6d77" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71b7-bf37-1af8-aca3" name="Alchemist Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="5f02-f01b-d9c9-64e2" name="Alchemist Armour" hidden="false">
+          <description>Counts as Reinforced Armour and therefore grants a -2 modifier to all injury rolls made against the model wearing it. All attacks with the Keyword FIRE and/or GAS suffer a -1 DICE penalty to injure this model. Additionally, this model does not suffer additional BLOOD MARKERS caused by the Keywords FIRE and/or GAS.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2e6f-8cd8-dbdd-dbca" name="Armour" hidden="false" targetId="86f6-6389-82d3-8301" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="0.0"/>
+        <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="8525-8583-0336-69d6" name="Hellbound Soul Contract" hidden="false">
+      <description>When this model is taken Out of Action, any model in melee combat with them immediately suffers +1 BLOOD MARKER unless the model ignores damage from sources with the Keyword FIRE.</description>
+    </rule>
+    <rule id="cc7f-e7ad-6f1e-1a47" name="Machine Armour" hidden="false">
+      <description>Grants a -3 modifier to all injury rolls against the model wearing this armour, and treats Down Injury results as a Minor Hit instead (note that TOUGH Keyword ability to avoid OOA with Down overrides this). Due to its bulk the wearer rolls D3 for a charge extra distance instead of D6. Machine armour cannot be combined with any shield. Models wearing Machine Armour may have Base size of 40mm if you wish unless the model wearing it already is on 50mm or bigger base. 
+If worn by a model that is not part of New Antioch force/subfaction, the only bonus the armour gives is the -3 Injury modifier, as the chemical treatment that allows the wearer to withstand the rigors of the armour is a carefully guarded military secret.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
