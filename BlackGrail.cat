@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2347-c0c4-5b1e-0a31" name="The Cult of the Black Grail" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="4ac5-1775-aa47-1764" name="1-Handed Weapon" hidden="false"/>
+    <categoryEntry id="aa70-8b31-1763-7d29" name="2-Handed Weapon" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="77f5-9596-e2f0-2a79" name="Dirge of the Great Hegemon" hidden="false">
+      <rules>
+        <rule id="aad0-e730-ba3e-51e1" name="The Executor" hidden="false">
+          <description>The warband must include an Executor (use Plague Knight Stats), who has the Keyword TOUGH and Ranged characteristic of +1 DICE.</description>
+        </rule>
+        <rule id="2c49-31a0-8455-b29e" name="The Lamenters" hidden="false">
+          <description>The warband can have up to two Plague Knights known as the Lamenters.</description>
+        </rule>
+        <rule id="ef24-240b-f399-c6c8" name="The Fallen" hidden="false">
+          <description>The warband cannot include a Lord of Tumours or Amalgam, for all were slain a long time ago.</description>
+        </rule>
+        <rule id="0d5e-6461-4bf4-0f5f" name="The Lost" hidden="false">
+          <description>The warband may only have a maximum of two Hounds (known as Wailers) and a maximum of two Heralds of Beelzebub (called Weepers).</description>
+        </rule>
+        <rule id="822d-df9e-22c2-a74a" name="The Bereaved" hidden="false">
+          <description>The Grail Thralls and Fly Thralls of the warband are called the Bereaved. Grail Thralls (but not Fly Thralls) can use ranged weapons, standards and musical instruments from the Black Grail Armoury. They have a Ranged characteristic of +0 DICE and cost 35 ducats each.</description>
+        </rule>
+        <rule id="80ef-2869-6078-58ca" name="Dishonoured" hidden="false">
+          <description>No model in the warband may carry the Black Grail Shield or Beelzebub’s Axe. The Lord of the Flies does not suffer failed knights to carry his device.</description>
+        </rule>
+        <rule id="cf74-8d40-e4ba-66da" name="Hegemon’s Last Blessing" hidden="false">
+          <description>This warband has Plague Blade LIMIT:3, Putrid Shotgun LIMIT:3 and Viscera Cannon LIMIT:2. Non-ELITE models can be equipped with Viscera Cannons.</description>
+        </rule>
+        <rule id="3759-2d25-65ef-fa88" name="Hegemon’s Will" hidden="false">
+          <description>Using the remnants of the lingering power of a fallen Hegemon, any Plague Knight in the warband can command any Thrall within 18” of it directly. During its Activation, a Plague Knight can remove an INFECTION MARKER from any model in play to enable a Thrall within 18” to use any one of the Actions detailed below. Each Thrall can only be affected by Hegemon’s Will once per Turn, but one Plague Knight may issue commands to multiple Thralls (though not multiple times to the same Thrall) during a single Activation, if all the conditions are met.
+- Move: The Thrall makes the standard Move Action.
+- Ranged Attack: The Thrall performs a Ranged Attack ACTION with any Ranged weapon it has. 
+- Charge: The Thrall makes a standard Charge Action.
+- Melee Attack: The Thrall performs a Melee Attack ACTION.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="99f3-8aca-60bf-8cef" name="Leader" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="false"/>
+        <categoryLink id="922a-41f9-7d62-db0d" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="b0e4-2fcf-8aed-19f1" name="Trooper" hidden="false" targetId="704c-2fc0-8543-f66f" primary="false"/>
+        <categoryLink id="3db1-7ba9-98d2-f0f9" name="Mercenary" hidden="false" targetId="4a4d-57b7-f586-4fcd" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="4c05-7e3d-1ee2-3bc0" name="Lord of Tumours" hidden="false" collective="false" import="true" targetId="8773-a544-3b4f-f57b" type="selectionEntry"/>
+    <entryLink id="49b9-8def-e81b-a258" name="Plague Knight Leader" hidden="false" collective="false" import="true" targetId="3423-d320-73e5-562e" type="selectionEntry"/>
+    <entryLink id="6873-c68a-270a-e56b" name="Plague Knight" hidden="false" collective="false" import="true" targetId="0748-0c51-e4ca-d57e" type="selectionEntry"/>
+    <entryLink id="74bf-1445-8b76-a5de" name="Corpse Guard" hidden="false" collective="false" import="true" targetId="73a8-c0b9-fb6f-aed6" type="selectionEntry"/>
+    <entryLink id="2786-900b-6aa4-181f" name="Fly Thrall" hidden="false" collective="false" import="true" targetId="d471-bff4-3fab-551d" type="selectionEntry"/>
+    <entryLink id="687c-4b1e-b4b6-1d22" name="Grail Thrall" hidden="false" collective="false" import="true" targetId="dd39-ce0d-5abd-eacf" type="selectionEntry"/>
+    <entryLink id="10ab-8c57-192c-bfbd" name="Hound of the Black Grail" hidden="false" collective="false" import="true" targetId="8153-1758-55fd-b29e" type="selectionEntry"/>
+    <entryLink id="5c89-d2e5-f4d2-cba4" name="Herald of Beelzebub" hidden="false" collective="false" import="true" targetId="2819-e143-b928-010a" type="selectionEntry"/>
+    <entryLink id="0f07-fa6f-d3c2-2312" name="Amalgam" hidden="false" collective="false" import="true" targetId="f530-f894-3b11-4ec0" type="selectionEntry"/>
+    <entryLink id="57e9-ba02-3d8d-6883" name="The Executor" hidden="false" collective="false" import="true" targetId="46b1-e0df-56d1-8f42" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="5f60-ece8-3f47-8484" name="Infested Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1cd1-9d75-a8a5-010f" name="Infested Rifle" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">18&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1702-72b2-d4da-287f" name="Infested Rifle" hidden="false">
+          <description>Reduces the injury roll penalty from armour and shields by 1. Thus Reinforced Armour only offers a -1 modifier to injury rolls caused by this weapon.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="40a0-1a81-6d94-c991" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="e84f-131f-6176-bd14" name="Corruption Belcher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b7f8-a84e-b6b3-b3a4" name="Corruption Belcher" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Gas</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6920-ab9f-d2b8-e730" name="Corruption Belcher" hidden="false">
+          <description>A Corruption Belcher hits one model within range automatically with its ranged attack ACTION. It ignores armour. It also has the Keyword GAS, so it inflicts an additional +1 BLOOD MARKER on enemies it hits.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="80b4-e1e4-7bcd-873a" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="dab8-d020-ed92-9b79" name="Gas" hidden="false" targetId="90c5-6f22-b2d8-eb40" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="2a25-6f99-acf5-8257" name="Putrid Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6546-bf52-32a0-6946" name="Putrid Shotgun" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">12&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+1 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8962-7ce0-5bce-56ca" name="Putrid Shotgun" hidden="false">
+          <description>This weapon causes INFECTION MARKERS instead of BLOOD MARKERS. The putrid shotgun adds +1 DICE to hit on its ranged attacks.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1851-c114-a3ef-4243" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="faf2-76ab-ddbb-dedd" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="13f3-7586-06fd-db7a" name="Viscera Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4dd1-e8f5-644b-3dbd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7708-001a-261d-3d40" name="Viscera Cannon" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">24&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+2 Dice to Hit</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="54f7-3b58-ecbc-83dd" name="Viscera Cannon" hidden="false">
+          <description>The Viscera Cannon has additional +2 DICE on ranged attack rolls as even the slightest splash can kill. If it hits the enemy, roll to injure as standard. After rolling for injuries, you can boost the damage by up to three additional INFECTION MARKERS per hit by taking the same number of BLOOD MARKERS on the shooter itself.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c88f-a593-384d-9bb3" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="49ac-3bad-2f60-6946" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="3f6d-fbad-fa43-09c4" name="Plague Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22fb-e314-233d-b62e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="957c-d1d4-4f79-1927" name="Plague Blade" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">1-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9c8c-d365-e520-f822" name="Plague Blade" hidden="false">
+          <description>This weapon causes INFECTION MARKERS instead of BLOOD MARKERS.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c8a9-acbd-c04e-ea1e" name="1-Handed Melee Weapons" hidden="false" targetId="a6b3-2408-32db-fcaa" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="b2ca-dd56-3da1-8318" name="Beelzebub’s Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21f5-f38a-4fa1-b1aa" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f712-0c04-d771-0b87" name="Beelzebub’s Axe" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">Melee</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be">+2 Dice to Injuries</characteristic>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cde4-ab03-5f9b-b71c" name="Beelzebub’s Axe" hidden="false">
+          <description>This weapon rolls injuries with +2 DICE. This weapon causes INFECTION MARKERS instead of BLOOD MARKERS.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="59f7-e4f8-4e11-6ffc" name="2-Handed Melee Weapons" hidden="false" targetId="f524-90ca-7824-d669" primary="false"/>
+        <categoryLink id="6ec9-e6c2-c80c-26b1" name="Heavy" hidden="false" targetId="ac46-997f-196d-5bcb" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="e7b0-67b1-796c-8870" name="Black Grail Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="16f9-40be-eec6-28b6" name="Black Grail Shield" hidden="false">
+          <description>Works exactly as a trench shield, including Shield Combo capability. In addition, if a model carrying a Black Grail Shield is targeted by a ranged attack, before rolling to hit it can immediately take an ACTION without an Activation. If successful, the ranged attack suffers -2 DICE to the roll determining whether the attack hits, as the power of the Black Grail disturbs the flow of reality. If the roll is a critical, the attack misses automatically.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0bc7-43b3-9830-75eb" name="Shield" hidden="false" targetId="9bfc-9b63-eb4c-7934" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="9524-a402-fb0c-a11a" name="Parasite Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dd86-1074-b1f4-9ff3" name="Parasite Grenades" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">Grenade</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">8&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3e05-52c2-a14b-675b" name="Parasite Grenades" hidden="false">
+          <description>If a Parasite Grenade hits a model, the Black Grail player can move this model up 3” in any direction they wish. This can be used to move the model out of cover, to fall from a high position or even into melee with their enemies. This additional effect does not work on models with the Keyword FEAR or ones not affected by FEAR.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f14d-ab4c-71b0-d35a" name="Grenade" hidden="false" targetId="a497-6e8c-3c0b-00ef" primary="false"/>
+        <categoryLink id="621e-743a-e6ad-1a01" name="Assault" hidden="false" targetId="e4e8-8d1d-a8ed-bf0c" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="8773-a544-3b4f-f57b" name="Lord of Tumours" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="58eb-16c8-805e-302f" name="Lord of Tumours" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+1 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+4 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">50mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Tough, Strong, Fear, Beelzebub’s Touch, Undead Fortitude</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f537-e338-fc0a-f06a" name="Beelzebub’s Touch" hidden="false">
+          <description>As long as the Lord of Tumours has one free hand (which carries no weapons or a shield), it can make an ACTION against any non-BLACK GRAIL model it is fighting in melee combat. If successful, the target model gains +D3 INFECTION MARKERS. It can still fight with the other hand as normal.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c715-26e7-522c-ae6c" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f7b5-e67a-ed7f-6857" name="New CategoryLink" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="true"/>
+        <categoryLink id="c4f4-9a77-a677-f5ef" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="6436-bb19-aa25-94d7" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="344f-ba58-8298-a8b4" name="Tough" hidden="false" targetId="65a7-7c05-065c-2bcb" primary="false"/>
+        <categoryLink id="5431-4001-69dc-eea0" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="933a-3df6-3e7a-d8b0" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0788-c9c3-fc28-587b" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="26ef-b1a2-ccca-352d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="112f-3c85-9842-cbea" name="Plague Blade" hidden="false" collective="false" import="true" targetId="3f6d-fbad-fa43-09c4" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="6fda-4b16-2ecb-075d" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup"/>
+        <entryLink id="91fa-42a7-4c29-2eeb" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="f13d-3c5d-1ab2-a87d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b189-f484-2278-19cb" name="Beelzebub’s Axe" hidden="false" collective="false" import="true" targetId="b2ca-dd56-3da1-8318" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="db93-c870-52ba-9d44" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ce71-32b5-a7de-6131" name="Viscera Cannon" hidden="false" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="b882-39b0-225e-c178" name="Armour" hidden="false" collective="false" import="true" targetId="979f-a942-32f1-0d67" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9e59-3a4d-7652-2c20" name="Reinforced Armour" hidden="false" collective="false" import="true" targetId="c6d3-4ed3-9af8-b03d" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="63ab-55a6-833f-c70f" name="Equipment" hidden="false" collective="false" import="true" targetId="5f6a-2a01-3ffa-505e" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="dfa9-cacd-cb5b-cc58" name="Unholy Relic" hidden="false" collective="false" import="true" targetId="de80-7560-4546-24cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bde-3e4a-4af8-d85e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="a0b0-87fc-6386-bddc" name="Grenades" hidden="false" collective="false" import="true" targetId="02c6-c7a2-5617-e72b" type="selectionEntryGroup"/>
+        <entryLink id="c4e5-3230-22ef-b07f" name="Headgear" hidden="false" collective="false" import="true" targetId="ca64-750c-fb6e-a88a" type="selectionEntryGroup"/>
+        <entryLink id="a7b8-1357-b3db-f8e5" name="Shields" hidden="false" collective="false" import="true" targetId="f347-a83d-2a91-ef6b" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="daf6-e837-3626-d746" name="Black Grail Shield" hidden="false" collective="false" import="true" targetId="e7b0-67b1-796c-8870" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3423-d320-73e5-562e" name="Plague Knight" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Leader</comment>
+      <infoLinks>
+        <infoLink id="a9a3-69e0-650b-144e" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+        <infoLink id="fe6a-0c9c-476c-d6fc" name="Plague Knight" hidden="false" targetId="ab4d-b940-359b-4c32" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="81ce-d0e5-21bc-36dc" name="Leader" hidden="false" targetId="fd03-b929-b7d2-fa9a" primary="true"/>
+        <categoryLink id="80a1-2891-ba1a-70ce" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="false"/>
+        <categoryLink id="2dda-cec0-fcd5-8a42" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+        <categoryLink id="ebf4-7c46-cbfe-e283" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="391e-dc8e-797d-73bd" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ac92-b853-9844-44f5" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca59-5a19-6fd1-4f77" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fca-2b01-5b68-8ed9" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b312-f676-16d2-7552" name="Standard Armour" hidden="false" collective="false" import="true" targetId="62c3-43d1-3d44-1b49" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bc43-5f13-77d4-4fe5" name="Reinforced Armour" hidden="false" collective="false" import="true" targetId="c6d3-4ed3-9af8-b03d" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="70ea-6e3d-1318-783d" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="26ef-b1a2-ccca-352d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="47ab-58ab-4282-2683" name="Plague Blade" hidden="false" collective="false" import="true" targetId="3f6d-fbad-fa43-09c4" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="4d90-c84c-1934-13c8" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup"/>
+        <entryLink id="bd09-1e87-4c34-dd98" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="f13d-3c5d-1ab2-a87d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="35f5-475a-a6e6-eef4" name="Beelzebub’s Axe" hidden="false" collective="false" import="true" targetId="b2ca-dd56-3da1-8318" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="53f1-63c3-c28b-7123" name="Trench Polearm" hidden="false" collective="false" import="true" targetId="70db-cc19-44ed-a481" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="7.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="5b51-27a2-b3d1-5c67" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2c27-2798-5735-c68f" name="Viscera Cannon" hidden="false" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="01cf-d741-5c08-5a34" name="Equipment" hidden="false" collective="false" import="true" targetId="5f6a-2a01-3ffa-505e" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8a37-9a49-fb7d-5e51" name="Unholy Relic" hidden="false" collective="false" import="true" targetId="de80-7560-4546-24cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ea-85f9-b7a0-63e4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f961-95f5-5a02-c04f" name="Broken Crown" hidden="false" collective="false" import="true" targetId="452d-817d-c5dc-6c47" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa4-d410-f77c-684c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8eba-8c48-3ed4-f2b2" name="Urn of Bitter Ashes " hidden="false" collective="false" import="true" targetId="2e35-86f3-ace2-b74c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="654d-61e0-ff98-ac2e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="ab4c-df64-a3b0-94d2" name="Grenades" hidden="false" collective="false" import="true" targetId="02c6-c7a2-5617-e72b" type="selectionEntryGroup"/>
+        <entryLink id="0bc3-8753-e874-97c2" name="Headgear" hidden="false" collective="false" import="true" targetId="ca64-750c-fb6e-a88a" type="selectionEntryGroup"/>
+        <entryLink id="20a7-2609-cdfb-b2c1" name="Shields" hidden="false" collective="false" import="true" targetId="f347-a83d-2a91-ef6b" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="0b6c-3295-d77e-b53a" name="Black Grail Shield" hidden="false" collective="false" import="true" targetId="e7b0-67b1-796c-8870" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0748-0c51-e4ca-d57e" name="Plague Knight" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="name" value="Lamenter"/>
+            <modifier type="set" field="dfca-daff-418b-9c31" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfca-daff-418b-9c31" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="04d0-4b22-943a-2951" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+        <infoLink id="bfc4-b1e0-1c0a-d665" name="Plague Knight" hidden="false" targetId="ab4d-b940-359b-4c32" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="name" value="Lamenter"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b70b-5adf-6cf4-df62" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="true"/>
+        <categoryLink id="e8f2-19cc-90bf-7893" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+        <categoryLink id="35b9-a5ea-e034-10a2" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="460f-2dc2-09ae-cbb1" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1e0d-b23c-b466-83c7" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20ef-eeaf-b829-c3ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ef-b9ed-99ef-fa6b" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b3e0-3901-496f-c55c" name="Standard Armour" hidden="false" collective="false" import="true" targetId="62c3-43d1-3d44-1b49" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9090-68c1-934e-5812" name="Reinforced Armour" hidden="false" collective="false" import="true" targetId="c6d3-4ed3-9af8-b03d" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="af1e-6116-f961-63d9" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="26ef-b1a2-ccca-352d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="f1ba-6725-292c-a057" name="Plague Blade" hidden="false" collective="false" import="true" targetId="3f6d-fbad-fa43-09c4" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="8bc1-822e-7e25-109e" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup"/>
+        <entryLink id="a513-1c52-6be0-cf42" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="f13d-3c5d-1ab2-a87d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="5365-04a5-425d-7680" name="Beelzebub’s Axe" hidden="false" collective="false" import="true" targetId="b2ca-dd56-3da1-8318" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8876-fa95-1b2d-90b8" name="Trench Polearm" hidden="false" collective="false" import="true" targetId="70db-cc19-44ed-a481" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="7.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="cff8-5db6-0e35-e703" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d047-0a46-d5f4-19ac" name="Viscera Cannon" hidden="false" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="dd51-8188-807f-9810" name="Equipment" hidden="false" collective="false" import="true" targetId="5f6a-2a01-3ffa-505e" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="0b75-46b0-045a-2588" name="Unholy Relic" hidden="false" collective="false" import="true" targetId="de80-7560-4546-24cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8c3-7da4-5603-0b59" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9585-9560-b862-69d5" name="Broken Crown" hidden="false" collective="false" import="true" targetId="452d-817d-c5dc-6c47" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1516-296b-66e4-41de" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b8f4-579d-c591-bd48" name="Urn of Bitter Ashes " hidden="false" collective="false" import="true" targetId="2e35-86f3-ace2-b74c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7370-dcac-6a96-4854" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="f833-230a-a1bd-6dc7" name="Grenades" hidden="false" collective="false" import="true" targetId="02c6-c7a2-5617-e72b" type="selectionEntryGroup"/>
+        <entryLink id="35ee-8b49-4359-9704" name="Headgear" hidden="false" collective="false" import="true" targetId="ca64-750c-fb6e-a88a" type="selectionEntryGroup"/>
+        <entryLink id="8107-4ce5-58c2-c5e8" name="Shields" hidden="false" collective="false" import="true" targetId="f347-a83d-2a91-ef6b" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="c530-262f-596d-04be" name="Black Grail Shield" hidden="false" collective="false" import="true" targetId="e7b0-67b1-796c-8870" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="73a8-c0b9-fb6f-aed6" name="Corpse Guard" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9f7b-cd63-e97d-7bef" name="Corpse Guard" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+0 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">32mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Fear, Parasitic Tick, Bodyguard, Undead Fortitude</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2988-37a7-5ad7-8711" name="Parasitic Tick" hidden="false">
+          <description>If a Corpse Guard melee attack causes a BLOOD or INFECTION MARKER on a creature without the Keyword BLACK GRAIL in melee combat, the Corpse Guard can remove one of their own BLOOD or INFECTION MARKERS.</description>
+        </rule>
+        <rule id="71ce-245a-aabb-9b1a" name="Bodyguard" hidden="false">
+          <description>If any BLACK GRAIL model within 1” of the Corpse Guard is hit by a ranged or melee weapon (excluding BLAST weapons), you can choose to redirect the hit against the Corpse Guard instead. Determine the injuries exactly as if the weapon just hit the Corpse Guard.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4d94-1fe2-096e-9895" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a863-929d-ad1a-99fe" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="true"/>
+        <categoryLink id="7d50-5963-93e8-7495" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="5641-f13a-2af4-187c" name="Tough" hidden="false" targetId="65a7-7c05-065c-2bcb" primary="false"/>
+        <categoryLink id="7e0b-1945-1d0e-4f4b" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="498a-af7a-0c61-8bb6" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d356-ec02-742c-2b23" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="26ef-b1a2-ccca-352d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a361-394c-13b6-8806" name="Plague Blade" hidden="false" collective="false" import="true" targetId="3f6d-fbad-fa43-09c4" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="4fd3-da81-c99b-3c72" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup"/>
+        <entryLink id="af10-9271-b509-86ce" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="f13d-3c5d-1ab2-a87d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="4cb9-f9da-318e-82d3" name="Beelzebub’s Axe" hidden="false" collective="false" import="true" targetId="b2ca-dd56-3da1-8318" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="e845-c4e2-b806-6059" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="c47b-a7c6-e662-cd1c" name="Viscera Cannon" hidden="false" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="2f30-192c-5680-d800" name="Armour" hidden="false" collective="false" import="true" targetId="979f-a942-32f1-0d67" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a123-d0f5-944f-f044" name="Reinforced Armour" hidden="false" collective="false" import="true" targetId="c6d3-4ed3-9af8-b03d" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="222c-7b7e-63b7-a365" name="Equipment" hidden="false" collective="false" import="true" targetId="5f6a-2a01-3ffa-505e" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="bf2b-c6bc-b8ad-0ddc" name="Unholy Relic" hidden="false" collective="false" import="true" targetId="de80-7560-4546-24cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e9-3f81-c697-d6ec" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b7a9-fae6-7699-effd" name="Broken Crown" hidden="false" collective="false" import="true" targetId="452d-817d-c5dc-6c47" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73fd-53eb-0896-067b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="21dd-3a5e-a2da-9c9c" name="Urn of Bitter Ashes " hidden="false" collective="false" import="true" targetId="2e35-86f3-ace2-b74c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4399-d18e-0d5f-3fa1" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="ade9-acbc-8132-1bb9" name="Grenades" hidden="false" collective="false" import="true" targetId="02c6-c7a2-5617-e72b" type="selectionEntryGroup"/>
+        <entryLink id="0956-ec2a-d76e-0ab5" name="Headgear" hidden="false" collective="false" import="true" targetId="ca64-750c-fb6e-a88a" type="selectionEntryGroup"/>
+        <entryLink id="86e2-3274-01b4-9bd3" name="Shields" hidden="false" collective="false" import="true" targetId="f347-a83d-2a91-ef6b" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b2a0-d833-ffe3-dcd1" name="Black Grail Shield" hidden="false" collective="false" import="true" targetId="e7b0-67b1-796c-8870" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8153-1758-55fd-b29e" name="Hound of the Black Grail" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="name" value="Wailer"/>
+            <modifier type="set" field="2e36-3e1c-1048-262f" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e36-3e1c-1048-262f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3a8e-3b2b-a0d4-29c2" name="Hound" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="name" value="Wailer"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">8&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">N/A</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">30x60mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Undead Fortitude, Frightening Speed, Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4811-5d07-fc0b-32dc" name="Hound of the Black Grail" hidden="false">
+          <description>The Hounds never carry any type of weapons, armour or equipment. They do not suffer penalties for fighting unarmed. At the cost of +5 ducats, they cause INFECTION MARKERS with their unarmed attacks instead of BLOOD MARKERS.</description>
+        </rule>
+        <rule id="b459-82f5-d88a-db70" name="Frightening Speed" hidden="false">
+          <description>The hounds take Dash actions with +1 DICE. In addition, they can get up from being Down without any movement penalty.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e0de-0f3f-117c-12cd" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="08ca-f178-5b47-cc88" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+        <categoryLink id="b4b0-5e87-21d3-6ebe" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="6d28-c5c3-e5b0-64e0" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="86fa-8e93-238b-8d75" name="Infection Markers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9101-c046-9412-5f06" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="15ed-a254-d26c-0cdc" name="Infection Markers" hidden="false">
+              <description>This model causes INFECTION MARKERS with their unarmed attacks instead of BLOOD MARKERS.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd39-ce0d-5abd-eacf" name="Grail Thrall" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="name" value="Bereaved"/>
+            <modifier type="set" field="051b-a11e-6a08-7276" value="35.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="a35a-dc3b-2bba-ea2a" name="Grail Thrall" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="name" value="Bereaved"/>
+                <modifier type="set" field="cb8a-1e13-fc9c-7d06" value="+0 Dice"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">5&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">N/A</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">-1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">25mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Overwhelming Horde, Undead Fortitude, Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="25e8-ea86-b6b1-2e16" name="Thrall" hidden="false" targetId="8d6b-a69d-3ab3-1feb" type="rule"/>
+        <infoLink id="6864-88e8-321a-670f" name="Overwhelming Horde" hidden="false" targetId="eb77-f529-d041-fc3b" type="rule"/>
+        <infoLink id="9105-4b46-0e0f-aee0" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="08fb-e7d5-b657-5446" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="d51a-b32f-ba19-d28b" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="73da-c4d5-708d-5067" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ef20-9dab-4e6e-5029" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="b5ac-fa39-6238-7ec9" name="Troop Flag" hidden="false" collective="false" import="true" targetId="2238-3812-18b4-96de" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="284d-1173-a0d9-2dc4" name="Musical Instrument" hidden="false" collective="false" import="true" targetId="fdbf-50d1-fc05-e612" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="298a-5425-68c7-0df4" name="1-Handed Ranged Weapons" hidden="true" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a50e-854f-9144-d6c9" name="2-Handed Ranged Weapons" hidden="true" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="bf5e-ac8a-9f76-efa7" name="Viscera Cannon" hidden="false" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d471-bff4-3fab-551d" name="Fly Thrall" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="name" value="Bereaved"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="32a9-42c2-cdae-e097" name="Fly Thrall" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="name" value="Bereaved"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">8&quot;/Flying</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">N/A</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">-1 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">25mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Overwhelming Horde, Undead Fortitude, Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a75-617c-87df-c773" name="Thrall" hidden="false" targetId="8d6b-a69d-3ab3-1feb" type="rule"/>
+        <infoLink id="d43f-adfb-ca5e-acec" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+        <infoLink id="f891-205f-80b0-a9ba" name="Overwhelming Horde" hidden="false" targetId="eb77-f529-d041-fc3b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b605-a111-4c9b-e45b" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="a17b-e09e-0aa2-058d" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="01ae-8340-bf56-2ba6" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2819-e143-b928-010a" name="Herald of Beelzebub" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="name" value="Weeper"/>
+            <modifier type="set" field="5712-ed78-685c-ec5b" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5712-ed78-685c-ec5b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e2fe-072f-66e2-8253" name="Herald of Beelzebub" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="name" value="Weeper"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">10&quot;/Flying</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+0 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+0 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">40mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Infected Proboscis, Toxic, Skirmisher, Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6514-2a4f-32a2-c777" name="Infected Proboscis" hidden="false">
+          <description>Heralds suffer no penalties for fighting unarmed in melee and they cause INFECTION MARKERS with their unarmed attacks instead of BLOOD MARKERS. If this attack causes an INFECTION MARKER on any enemy without the Keyword BLACK GRAIL, the Herald can remove one of their own BLOOD MARKERS.</description>
+        </rule>
+        <rule id="20e6-217f-c85a-9088" name="Herald of Beelzebub" hidden="false">
+          <description>Each herald may purchase ranged weapons from the Black Grail Armoury but may not wear armour or carry any equipment. They can only attack in melee combat with its proboscis. At the cost of +10 ducats a single herald can be given the Maddening Buzz ability.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="739c-db5a-482e-e177" name="Toxic" hidden="false" targetId="4c06-a685-ea7b-6c61" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b35-30b1-6311-f5a6" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="8086-65a9-cece-00b4" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="ee5d-b5ab-68b2-518c" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+        <categoryLink id="454a-5456-5b61-bc2a" name="Skirmisher" hidden="false" targetId="1970-1204-17ef-5e57" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="70f3-0cb7-c88c-aa23" name="Maddening Buzz" hidden="false" collective="false" import="true" targetId="e90f-e645-9576-1747" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c0a9-31b1-1b42-22ac" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup"/>
+        <entryLink id="c1de-80cf-bf8b-161b" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8814-8bd8-3120-c389" name="Viscera Cannon" hidden="true" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="lessThan"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="lessThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="c5dd-6849-a9f3-1fd5" name="Grenades" hidden="false" collective="false" import="true" targetId="02c6-c7a2-5617-e72b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f530-f894-3b11-4ec0" name="Amalgam" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3a-2524-70c4-f419" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="43c3-6cf0-a4b5-39ee" name="Amalgam" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+0 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+0 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">60mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Corpulent, Tough, Toxic, Trample, Unstoppable, Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b3b8-0bef-0041-e4e1" name="Corpulent" hidden="false">
+          <description>An Amalgam is a vast bulk of diseased flesh and is extraordinarily difficult to kill. All injury rolls from any source against an Amalgam suffer a -2 DICE penalty.</description>
+        </rule>
+        <rule id="bd2a-2f7b-7af3-2d31" name="Trample" hidden="false">
+          <description>Whenever the Amalgam is fighting any enemy model on a 32mm or smaller base in melee that is Down, it can make a single additional Melee Attack ACTION any time during its Activation against one Downed opponent. Resolve the attack as if the Amalgam was armed with a Trench Club. This attack Ignores armour as the Amalgam stomps their enemies into pulp.</description>
+        </rule>
+        <rule id="6820-9bc6-ca8f-e694" name="Unstoppable" hidden="false">
+          <description>An amalgam can always move out of melee combat with any enemy without the enemy having a chance to attack it. Additionally, it can move out of melee combat as part of a standard move, charge or dash.</description>
+        </rule>
+        <rule id="cab5-60cd-2334-a19d" name="Amalgam" hidden="false">
+          <description>The amalgam has six functional arms. They can carry six one-handed weapons or three double-handed weapons, or any combination thereof, as long as the six arms can carry them. The amalgam uses the Black Grail Armoury for weapons – it never carries any other gear except weapons, though one of its arms may carry a single trench shield (representing pieces of armour it has absorbed). It may not carry grenades or more than two weapons of the same type. It can execute any ranged and melee attacks with each of the weapons it carries during its Activation. Each count as a separate ACTION and suffer no off-hand penalties in melee. The amalgam cannot benefit from Shield Combo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ed5c-7e00-e344-2f10" name="Toxic" hidden="false" targetId="4c06-a685-ea7b-6c61" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="43a1-809a-38d0-f678" name="New CategoryLink" hidden="false" targetId="704c-2fc0-8543-f66f" primary="true"/>
+        <categoryLink id="421c-0e93-a744-f272" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="5e63-72b0-76e6-bb74" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+        <categoryLink id="9a05-83c4-b57f-ecea" name="Tough" hidden="false" targetId="65a7-7c05-065c-2bcb" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3cc1-2c98-4126-e58f" name="Shields" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdae-d69c-a564-0617" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a53a-7dc0-0944-0d45" name="Trench Shield" hidden="false" collective="false" import="true" targetId="9f89-8bb9-b7fd-094a" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ed59-3ba6-f954-2d57" name="1-Handed Weapons" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="decrement" field="3747-24fc-3c48-5bf2" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="3747-24fc-3c48-5bf2" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f304-a3c4-9943-01d1" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3747-24fc-3c48-5bf2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c123-e8fc-7846-6a10" name="Sword/Axe" hidden="false" collective="false" import="true" targetId="c090-d971-10aa-ef8a" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="2e95-c754-a084-b3b3" name="1-Handed Weapon" hidden="false" targetId="4ac5-1775-aa47-1764" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3982-42d8-e53a-cb95" name="Trench Club" hidden="false" collective="false" import="true" targetId="aa52-3801-52a2-a5c2" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="259c-7037-fa64-ccd8" name="1-Handed Weapon" hidden="false" targetId="4ac5-1775-aa47-1764" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="607a-6ff9-790b-9315" name="Trench Knife/Dagger" hidden="false" collective="false" import="true" targetId="98ed-4714-6800-5772" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="0b1c-1596-fe2d-47d8" name="1-Handed Weapon" hidden="false" targetId="4ac5-1775-aa47-1764" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d192-e32f-a605-acec" name="Pistol" hidden="false" collective="false" import="true" targetId="6e94-d899-dc2e-61c2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e49-be67-c934-dd56" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="f9b6-6371-a8de-034d" name="1-Handed Weapon" hidden="false" targetId="4ac5-1775-aa47-1764" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="6.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f304-a3c4-9943-01d1" name="2-Handed Weapons" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="decrement" field="15bd-fec5-8b60-bc0d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="15bd-fec5-8b60-bc0d" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed59-3ba6-f954-2d57" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="15bd-fec5-8b60-bc0d" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed59-3ba6-f954-2d57" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="15bd-fec5-8b60-bc0d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed59-3ba6-f954-2d57" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15bd-fec5-8b60-bc0d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6b82-828f-3fa1-6122" name="2-Handed Hammer" hidden="false" collective="false" import="true" targetId="39c3-55f3-ab56-d2ad" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd0e-7438-95a3-2d23" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9302-4fe8-d414-e454" name="Great Sword/Axe" hidden="false" collective="false" import="true" targetId="f9ec-b98f-9f38-ffb4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b19-3da8-5b7a-87d9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="12.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3914-6e43-3d3d-239c" name="Bolt Action Rifle" hidden="false" collective="false" import="true" targetId="9742-157c-7189-6081" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b12-2af7-4379-d63a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="35ad-3b2f-7806-d8de" name="Corruption Belcher" hidden="false" collective="false" import="true" targetId="e84f-131f-6176-bd14" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33eb-d13d-8512-b892" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c902-0ec4-dfe1-aefa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ff93-ee58-9831-2134" name="Infested Rifle" hidden="false" collective="false" import="true" targetId="5f60-ece8-3f47-8484" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2060-5e56-378f-ab1e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1619-070a-5b00-3b30" name="Musket" hidden="false" collective="false" import="true" targetId="3bed-906c-d0dc-198d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22a-85b9-692f-e7f5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="47cd-3429-d4bc-67eb" name="Putrid Shotgun" hidden="false" collective="false" import="true" targetId="2a25-6f99-acf5-8257" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc67-aa28-59a1-aeec" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe90-6771-7c74-c270" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e90f-e645-9576-1747" name="Maddening Buzz" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b462-a81b-25c3-853a" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c8a-aed0-6677-809c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a12f-3826-3f7f-f014" name="Maddening Buzz" hidden="false">
+          <description>Every ACTION taken by a model without Keyword BLACK GRAIL within 8” of a Herald is considered a RISKY ACTION. Note: This does not affect non-ACTION rolls such as Charge distance rolls, nor does it affect ACTIONS that do not require a roll on the Action Success Chart.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="46b1-e0df-56d1-8f42" name="The Executor" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad9-f7b8-c239-6e6f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aedb-fdaf-6bf7-ccd0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2e1b-d60c-762b-9557" name="The Executor" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+1 Dice</characteristic>
+            <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+2 Dice</characteristic>
+            <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+            <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">32mm</characteristic>
+            <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Undead Fortitude, Fear, Strong, Tough</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e764-007e-f796-6ec6" name="Undead Fortitude" hidden="false" targetId="a7f8-e498-a6b5-dbe3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="91b0-a8fd-8005-0cf8" name="Elite" hidden="false" targetId="89f7-0fa6-330e-dff2" primary="true"/>
+        <categoryLink id="4263-96e4-0266-ea96" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
+        <categoryLink id="5127-8e45-08dc-6682" name="Strong" hidden="false" targetId="c9cd-710d-3abf-2131" primary="false"/>
+        <categoryLink id="9835-ab88-7611-ec35" name="Black Grail" hidden="false" targetId="6305-7f30-ed40-b535" primary="false"/>
+        <categoryLink id="4d25-9ae3-da31-7d98" name="Tough" hidden="false" targetId="65a7-7c05-065c-2bcb" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="abf9-79be-b734-35c1" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d14-b891-06f6-25ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1def-dc35-7262-7628" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1962-a032-2f47-fdd2" name="Standard Armour" hidden="false" collective="false" import="true" targetId="62c3-43d1-3d44-1b49" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e7c3-45db-cd18-96e1" name="Reinforced Armour" hidden="false" collective="false" import="true" targetId="c6d3-4ed3-9af8-b03d" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0b46-2648-b311-e675" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="26ef-b1a2-ccca-352d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="67df-5d51-a806-0850" name="Plague Blade" hidden="false" collective="false" import="true" targetId="3f6d-fbad-fa43-09c4" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="fe06-7241-db69-8f11" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="33c9-b3e5-dead-7f72" type="selectionEntryGroup"/>
+        <entryLink id="476f-eb25-09f8-d26e" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true" targetId="f13d-3c5d-1ab2-a87d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="70ac-c41a-fde8-ccf8" name="Beelzebub’s Axe" hidden="false" collective="false" import="true" targetId="b2ca-dd56-3da1-8318" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0fb5-63d1-4fa8-161b" name="Trench Polearm" hidden="false" collective="false" import="true" targetId="70db-cc19-44ed-a481" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="7.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="6cf6-1d0f-14d6-e7ff" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true" targetId="b050-8ed8-19f8-92d3" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="87ce-d184-1bce-c4be" name="Viscera Cannon" hidden="false" collective="false" import="true" targetId="13f3-7586-06fd-db7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="86e9-8627-1e93-2326" name="Equipment" hidden="false" collective="false" import="true" targetId="5f6a-2a01-3ffa-505e" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="da73-f3d9-6b97-365f" name="Unholy Relic" hidden="false" collective="false" import="true" targetId="de80-7560-4546-24cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa79-68bf-1736-ea25" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1da6-efa8-0f08-4e63" name="Broken Crown" hidden="false" collective="false" import="true" targetId="452d-817d-c5dc-6c47" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c94-c677-770d-f7b7" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4193-b4ee-d3f4-0e3c" name="Urn of Bitter Ashes " hidden="false" collective="false" import="true" targetId="2e35-86f3-ace2-b74c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c5-7893-5f23-3186" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="8a1f-7737-1411-4ec8" name="Grenades" hidden="false" collective="false" import="true" targetId="02c6-c7a2-5617-e72b" type="selectionEntryGroup"/>
+        <entryLink id="3050-c7ee-8fae-9117" name="Headgear" hidden="false" collective="false" import="true" targetId="ca64-750c-fb6e-a88a" type="selectionEntryGroup"/>
+        <entryLink id="4a06-1ff0-2a31-6c23" name="Shields" hidden="false" collective="false" import="true" targetId="f347-a83d-2a91-ef6b" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="f095-81bf-9893-0369" name="Black Grail Shield" hidden="false" collective="false" import="true" targetId="e7b0-67b1-796c-8870" type="selectionEntry">
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="452d-817d-c5dc-6c47" name="Broken Crown" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37a1-d527-20b1-39c1" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="aa8d-beac-3fb9-a3bc" name="Broken Crown" hidden="false">
+          <description>In the beginning of the Activation of the model wearing the Crown, it causes one INFECTION MARKER on each enemy model in melee combat with it. Despite its name, this item is not Headgear.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="78d3-53f8-fc64-216a" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e35-86f3-ace2-b74c" name="Urn of Bitter Ashes " hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5d0-634a-8abb-00a4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b6ce-4492-a73b-2c96" name="Urn of Bitter Ashes " hidden="false">
+          <description>All ranged attacks against a model carrying the Urn and any other models fully with 3” suffer a -1 DICE 
+penalty against any ranged attack ACTION targeting them. This stacks with any other ranged modifiers such as Long 
+Range. This applies even to weapons that ignore Cover such as Grenade Launchers.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="43bd-cd68-0714-44cf" name="Equipment" hidden="false" targetId="fbc0-5c51-45fd-1a4a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32df-6c7b-13cd-30fe" name="Blunderbuss" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77f5-9596-e2f0-2a79" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3f4f-a57e-60b4-bd97" name="Blunderbuss" hidden="false" typeId="3a58-f011-75f9-89dc" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="884f-9de1-3446-9e6f">2-Handed</characteristic>
+            <characteristic name="Range" typeId="633d-1382-c624-e875">10&quot;</characteristic>
+            <characteristic name="Modifiers" typeId="30c6-96d3-69a9-d5be"/>
+            <characteristic name="Keywords" typeId="681c-d00f-150d-3464">Shrapnel</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b8f2-a84e-f744-a94f" name="2-Handed Ranged Weapons" hidden="false" targetId="71ef-3fd9-91fd-a8e2" primary="false"/>
+        <categoryLink id="208b-4ac0-0eb5-bd37" name="Shrapnel" hidden="false" targetId="611d-3b22-92ee-44f0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="26ef-b1a2-ccca-352d" name="1-Handed Melee Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="f3bc-06f8-25b1-502d" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f13d-3c5d-1ab2-a87d" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="f3bc-06f8-25b1-502d" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f13d-3c5d-1ab2-a87d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3bc-06f8-25b1-502d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="40a1-9cb6-5319-6e90" name="Trench Knife/Dagger" hidden="false" collective="false" import="true" targetId="98ed-4714-6800-5772" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8c18-4875-8ac5-5306" name="Trench Club" hidden="false" collective="false" import="true" targetId="aa52-3801-52a2-a5c2" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d825-434e-3f78-bf33" name="Sword/Axe" hidden="false" collective="false" import="true" targetId="c090-d971-10aa-ef8a" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="4.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="33c9-b3e5-dead-7f72" name="1-Handed Ranged Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="60a1-fa88-2833-073b" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b050-8ed8-19f8-92d3" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="60a1-fa88-2833-073b" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a1-fa88-2833-073b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5ab7-f956-08f2-95f4" name="Pistol" hidden="false" collective="false" import="true" targetId="6e94-d899-dc2e-61c2" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="6.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f13d-3c5d-1ab2-a87d" name="2-Handed Melee Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="def3-2482-90f2-75f0" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atMost"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="def3-2482-90f2-75f0" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="notInstanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26ef-b1a2-ccca-352d" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9cd-710d-3abf-2131" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6b3-2408-32db-fcaa" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def3-2482-90f2-75f0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="80ec-c35b-4b97-8183" name="2-Handed Hammer" hidden="false" collective="false" import="true" targetId="39c3-55f3-ab56-d2ad" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="aa0c-1405-378e-43e5" name="Great Sword/Axe" hidden="false" collective="false" import="true" targetId="f9ec-b98f-9f38-ffb4" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="12.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b050-8ed8-19f8-92d3" name="2-Handed Ranged Weapons" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="816f-1b88-84a2-15e0" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33c9-b3e5-dead-7f72" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="816f-1b88-84a2-15e0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="ada8-8825-0bd5-69b0" name="Bolt Action Rifle" hidden="false" collective="false" import="true" targetId="9742-157c-7189-6081" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="11f3-6eab-697e-6333" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8261-dc62-71f5-367f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="16c3-c780-b25f-6fcd" name="Musket" hidden="false" collective="false" import="true" targetId="3bed-906c-d0dc-198d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="f505-6922-0b33-bf16" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ceb-a077-cd6e-fecd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="acd2-f9a5-155b-13b6" name="Infested Rifle" hidden="false" collective="false" import="true" targetId="5f60-ece8-3f47-8484" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="4cb7-e082-6d89-4d33" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="125a-6b82-b0ce-496e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f6cf-2672-f5a3-3742" name="Corruption Belcher" hidden="false" collective="false" import="true" targetId="e84f-131f-6176-bd14" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b0-67b1-796c-8870" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc1e-1304-4cdc-5b4c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="fdea-1413-97ae-0c99" name="Putrid Shotgun" hidden="false" collective="false" import="true" targetId="2a25-6f99-acf5-8257" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f104-4e60-d3c0-b848" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="68be-9e3d-4da3-76b5" name="Bayonet" hidden="false" collective="false" import="true" targetId="9048-e980-8a9e-6d71" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6545-f7d3-cd03-5b00" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0477-479e-216d-31ff" name="Blunderbuss" hidden="false" collective="false" import="true" targetId="32df-6c7b-13cd-30fe" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="979f-a942-32f1-0d67" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c51-0db1-26ef-df19" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c258-c24e-4127-78fb" name="Standard Armour" hidden="false" collective="false" import="true" targetId="62c3-43d1-3d44-1b49" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5f6a-2a01-3ffa-505e" name="Equipment" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="c84f-69fc-e6ad-f3c3" name="Unholy Trinket" hidden="false" collective="false" import="true" targetId="9290-3bb5-ccbe-32b2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5043-5f26-c74f-244b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0061-c1cf-f141-b274" name="Troop Flag" hidden="false" collective="false" import="true" targetId="2238-3812-18b4-96de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b818-ab13-e7f3-8e98" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cc1-adf0-e393-ff7e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="498f-a50d-917b-bbda" name="Musical Instrument" hidden="false" collective="false" import="true" targetId="fdbf-50d1-fc05-e612" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1331-181f-6349-24ce" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d825-ac94-5b2f-ea92" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7afb-a39d-957d-c68f" name="Field Shrine" hidden="false" collective="false" import="true" targetId="6d30-2d8b-b07b-9e80" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717f-484a-3382-6a84" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Glory Ponts" typeId="e3dd-6bfc-c037-3dcc" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="02c6-c7a2-5617-e72b" name="Grenades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e9-3ab3-dfa9-3d51" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4d84-68c5-d140-8f82" name="Gas Grenades" hidden="false" collective="false" import="true" targetId="3b31-a833-d8ab-d744" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b589-9fd8-7adc-174b" name="Parasite Grenades" hidden="false" collective="false" import="true" targetId="9524-a402-fb0c-a11a" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ca64-750c-fb6e-a88a" name="Headgear" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a858-4797-1d7b-0697" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3945-e7b2-8d7b-cad6" name="Combat Helmet" hidden="false" collective="false" import="true" targetId="4e0a-8eae-9538-43d8" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f347-a83d-2a91-ef6b" name="Shields" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff6-7d6c-028e-aac4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="728c-a5a7-4637-a235" name="Trench Shield" hidden="false" collective="false" import="true" targetId="9f89-8bb9-b7fd-094a" type="selectionEntry">
+          <costs>
+            <cost name="Ducats" typeId="051b-a11e-6a08-7276" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="a7f8-e498-a6b5-dbe3" name="Undead Fortitude" hidden="false">
+      <description>All injury rolls against this model are made with -1 DICE, unless the attack has the Keyword FIRE, in which case it works normally. 
+This model does not suffer additional BLOOD MARKERS from attacks with Keyword GAS.</description>
+    </rule>
+    <rule id="eb77-f529-d041-fc3b" name="Overwhelming Horde" hidden="false">
+      <description>For each friendly BLACK GRAIL model within 3” of the Thrall, it gains +1 DICE to its Melee attack rolls, up to maximum +4 DICE.</description>
+    </rule>
+    <rule id="8d6b-a69d-3ab3-1feb" name="Thrall" hidden="false">
+      <description>The Thrall never carries any type of weapons, armour or equipment. They suffer no penalties to their combat ability for being unarmed.</description>
+    </rule>
+    <rule id="4c06-a685-ea7b-6c61" name="Toxic" hidden="false">
+      <description>This model does not suffer additional BLOOD MARKERS from attacks with Keyword GAS.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="ab4d-b940-359b-4c32" name="Plague Knight" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
+      <characteristics>
+        <characteristic name="Movement" typeId="0a4e-f651-d611-e4f9">6&quot;/Infantry</characteristic>
+        <characteristic name="Ranged" typeId="cb8a-1e13-fc9c-7d06">+0 Dice</characteristic>
+        <characteristic name="Melee" typeId="b4f9-4645-2dbe-5781">+2 Dice</characteristic>
+        <characteristic name="Armour" typeId="cdf9-8f81-7019-a693">0</characteristic>
+        <characteristic name="Base" typeId="e98f-5cf8-fe89-3991">32mm</characteristic>
+        <characteristic name="Abilities" typeId="b62f-dfa4-5f98-411d">Undead Fortitude, Fear, Strong</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="4572-add1-a581-7cce" name="TCCommonData" targetId="8a68-77dc-eb5e-7e97" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
