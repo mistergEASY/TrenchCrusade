@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fd3e-9cfb-badb-2a5d" name="Heretic Legion" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fd3e-9cfb-badb-2a5d" name="Heretic Legion" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a299-4c55-fb3a-3df2" name="Naval Raiding Party" hidden="false">
       <rules>
@@ -52,6 +52,9 @@
         </rule>
         <rule id="948f-292b-c9e1-1fe2" name="Enemies of all" hidden="false">
           <description>Trench Ghosts cannot use Mercenaries.</description>
+        </rule>
+        <rule id="0daa-e1cd-c67c-b0f6" name="Barbed Wire Banshee" hidden="false">
+          <description>Instead of a Chorister, a Trench Ghost warband may include a Barbed Wire Banshee at the same cost. It has the same characteristics as a Chorister with the usual Trench Ghost special rules applied to it, but instead of the Unholy Hymns ability the Banshee has Death Wail.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -359,12 +362,15 @@
     </selectionEntry>
     <selectionEntry id="4968-5479-f816-d100" name="Heretic Chorister" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="eebe-a8c0-d04f-bad4" value="0.0">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d9-379e-fe28-6a9b" type="instanceOf"/>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7a4-63db-95b8-1315" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebe-a8c0-d04f-bad4" type="max"/>
+      </constraints>
       <profiles>
         <profile id="6be6-4250-4652-82d4" name="Heretic Chorister" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
           <modifierGroups>
@@ -572,6 +578,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81fe-1165-acb8-f2cd" type="max"/>
+      </constraints>
       <profiles>
         <profile id="958c-4f08-758d-cf24" name="Heretic Death Commando" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
           <modifierGroups>
@@ -707,6 +716,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a2e-f12a-6282-b415" type="max"/>
+      </constraints>
       <profiles>
         <profile id="585b-84b1-901a-e20c" name="War Wolf" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
           <characteristics>
@@ -1524,8 +1536,7 @@ If the bomb lands exactly on top of any model, roll with 3D6 on the Injury Chart
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="deb2-3bab-f9dc-0265" name="New CategoryLink" hidden="false" targetId="4a4d-57b7-f586-4fcd" primary="false"/>
-        <categoryLink id="e96b-2312-7ff0-f164" name="New CategoryLink" hidden="false" targetId="18bf-20ad-b0c1-0df0" primary="true"/>
+        <categoryLink id="deb2-3bab-f9dc-0265" name="New CategoryLink" hidden="false" targetId="4a4d-57b7-f586-4fcd" primary="true"/>
         <categoryLink id="b337-3a0a-6e9e-a716" name="Fear" hidden="false" targetId="1c85-f8f3-7eaa-24a1" primary="false"/>
         <categoryLink id="6aa8-1e6c-4d96-7033" name="Demonic" hidden="false" targetId="36ef-8f16-3fc7-1c73" primary="false"/>
       </categoryLinks>
@@ -1705,7 +1716,15 @@ If the bomb lands exactly on top of any model, roll with 3D6 on the Injury Chart
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66d9-379e-fe28-6a9b" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="972d-3ace-a7e9-c91b" value="0.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4968-5479-f816-d100" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="972d-3ace-a7e9-c91b" type="max"/>
+      </constraints>
       <profiles>
         <profile id="60ad-b7b9-c254-175c" name="Banshee" hidden="false" typeId="866d-d38c-4e2c-df61" typeName="Model">
           <modifierGroups>
@@ -2494,7 +2513,7 @@ If the bomb lands exactly on top of any model, roll with 3D6 on the Injury Chart
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cf5-1aa8-853b-2a13" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2cc-13ee-b491-530d" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>

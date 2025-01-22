@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5c8-9bda-3d25-e4bb" name="Iron Sultanate" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e5c8-9bda-3d25-e4bb" name="Iron Sultanate" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="f731-17b2-4a97-e37e" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="0e70-07c8-fe45-9a5f" name="Fida’i of Alamut" hidden="false">
       <rules>
@@ -1980,6 +1980,7 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="024b-dcbc-d04c-96e0" type="atLeast"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
@@ -2163,6 +2164,7 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="024b-dcbc-d04c-96e0" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2305,6 +2307,7 @@
                             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
                             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d91-177e-1d4e-28fa" type="atLeast"/>
                             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f89-8bb9-b7fd-094a" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="024b-dcbc-d04c-96e0" type="atLeast"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -2416,6 +2419,7 @@
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27ed-6417-c53e-b1bb" type="atLeast"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2238-3812-18b4-96de" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="024b-dcbc-d04c-96e0" type="atLeast"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdbf-50d1-fc05-e612" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
